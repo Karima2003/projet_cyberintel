@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Raw / generated data
+raw_pages.json
+
+# Large datasets
+datasets/*.csv
+
+# Trained models
+datasets/*.pkl

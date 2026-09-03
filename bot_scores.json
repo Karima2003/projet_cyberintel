@@ -1,0 +1,3594 @@
+[
+  {
+    "ip": "10.0.0.5",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 36,
+    "regularity_std": 0.0,
+    "velocity_rps": 0.411
+  },
+  {
+    "ip": "172.16.0.3",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 36,
+    "regularity_std": 0.0,
+    "velocity_rps": 0.411
+  },
+  {
+    "ip": "192.168.1.1",
+    "bot_score": 0.067,
+    "is_bot": false,
+    "nb_requests": 35,
+    "regularity_std": 13.129,
+    "velocity_rps": 0.308
+  },
+  {
+    "ip": "1.1.1.1",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 36,
+    "regularity_std": 0.0,
+    "velocity_rps": 0.411
+  },
+  {
+    "ip": "8.8.8.8",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 36,
+    "regularity_std": 0.0,
+    "velocity_rps": 0.411
+  },
+  {
+    "ip": "192.168.1.100",
+    "bot_score": 0.624,
+    "is_bot": false,
+    "nb_requests": 9,
+    "regularity_std": 0.393,
+    "velocity_rps": 2.645
+  },
+  {
+    "ip": "192.168.1.102",
+    "bot_score": 0.473,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 0.909,
+    "velocity_rps": 2.109
+  },
+  {
+    "ip": "192.168.1.103",
+    "bot_score": 0.23,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 2.305,
+    "velocity_rps": 0.467
+  },
+  {
+    "ip": "192.168.1.104",
+    "bot_score": 0.011,
+    "is_bot": false,
+    "nb_requests": 41,
+    "regularity_std": 90.731,
+    "velocity_rps": 0.057
+  },
+  {
+    "ip": "192.168.1.105",
+    "bot_score": 0.626,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 0.524,
+    "velocity_rps": 2.979
+  },
+  {
+    "ip": "192.168.1.106",
+    "bot_score": 0.014,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 65.557,
+    "velocity_rps": 0.061
+  },
+  {
+    "ip": "192.168.1.108",
+    "bot_score": 0.089,
+    "is_bot": false,
+    "nb_requests": 36,
+    "regularity_std": 6.304,
+    "velocity_rps": 0.201
+  },
+  {
+    "ip": "192.168.1.110",
+    "bot_score": 0.089,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 6.333,
+    "velocity_rps": 0.208
+  },
+  {
+    "ip": "192.168.1.115",
+    "bot_score": 0.087,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 6.524,
+    "velocity_rps": 0.202
+  },
+  {
+    "ip": "192.168.1.117",
+    "bot_score": 0.741,
+    "is_bot": true,
+    "nb_requests": 29,
+    "regularity_std": 0.249,
+    "velocity_rps": 3.404
+  },
+  {
+    "ip": "192.168.1.118",
+    "bot_score": 0.043,
+    "is_bot": false,
+    "nb_requests": 33,
+    "regularity_std": 23.848,
+    "velocity_rps": 0.225
+  },
+  {
+    "ip": "192.168.1.12",
+    "bot_score": 0.118,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 4.424,
+    "velocity_rps": 0.258
+  },
+  {
+    "ip": "192.168.1.120",
+    "bot_score": 0.107,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 5.067,
+    "velocity_rps": 0.246
+  },
+  {
+    "ip": "192.168.1.121",
+    "bot_score": 0.012,
+    "is_bot": false,
+    "nb_requests": 62,
+    "regularity_std": 98.771,
+    "velocity_rps": 0.071
+  },
+  {
+    "ip": "192.168.1.126",
+    "bot_score": 0.543,
+    "is_bot": false,
+    "nb_requests": 27,
+    "regularity_std": 0.741,
+    "velocity_rps": 2.563
+  },
+  {
+    "ip": "192.168.1.127",
+    "bot_score": 0.034,
+    "is_bot": false,
+    "nb_requests": 22,
+    "regularity_std": 27.539,
+    "velocity_rps": 0.165
+  },
+  {
+    "ip": "192.168.1.129",
+    "bot_score": 0.014,
+    "is_bot": false,
+    "nb_requests": 65,
+    "regularity_std": 82.897,
+    "velocity_rps": 0.08
+  },
+  {
+    "ip": "192.168.1.13",
+    "bot_score": 0.04,
+    "is_bot": false,
+    "nb_requests": 43,
+    "regularity_std": 19.263,
+    "velocity_rps": 0.149
+  },
+  {
+    "ip": "192.168.1.131",
+    "bot_score": 0.597,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 0.5,
+    "velocity_rps": 2.636
+  },
+  {
+    "ip": "192.168.1.132",
+    "bot_score": 0.017,
+    "is_bot": false,
+    "nb_requests": 55,
+    "regularity_std": 62.696,
+    "velocity_rps": 0.094
+  },
+  {
+    "ip": "192.168.1.133",
+    "bot_score": 0.137,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 3.504,
+    "velocity_rps": 0.257
+  },
+  {
+    "ip": "192.168.1.134",
+    "bot_score": 0.794,
+    "is_bot": true,
+    "nb_requests": 16,
+    "regularity_std": 0.215,
+    "velocity_rps": 3.819
+  },
+  {
+    "ip": "192.168.1.137",
+    "bot_score": 0.008,
+    "is_bot": false,
+    "nb_requests": 24,
+    "regularity_std": 123.534,
+    "velocity_rps": 0.037
+  },
+  {
+    "ip": "192.168.1.138",
+    "bot_score": 0.086,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 6.846,
+    "velocity_rps": 0.223
+  },
+  {
+    "ip": "192.168.1.139",
+    "bot_score": 0.009,
+    "is_bot": false,
+    "nb_requests": 45,
+    "regularity_std": 126.122,
+    "velocity_rps": 0.053
+  },
+  {
+    "ip": "192.168.1.140",
+    "bot_score": 0.269,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 1.913,
+    "velocity_rps": 0.502
+  },
+  {
+    "ip": "192.168.1.142",
+    "bot_score": 0.011,
+    "is_bot": false,
+    "nb_requests": 34,
+    "regularity_std": 88.871,
+    "velocity_rps": 0.051
+  },
+  {
+    "ip": "192.168.1.143",
+    "bot_score": 0.124,
+    "is_bot": false,
+    "nb_requests": 39,
+    "regularity_std": 4.371,
+    "velocity_rps": 0.307
+  },
+  {
+    "ip": "192.168.1.144",
+    "bot_score": 0.635,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 0.332,
+    "velocity_rps": 2.593
+  },
+  {
+    "ip": "192.168.1.145",
+    "bot_score": 0.244,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 2.114,
+    "velocity_rps": 0.456
+  },
+  {
+    "ip": "192.168.1.148",
+    "bot_score": 0.017,
+    "is_bot": false,
+    "nb_requests": 66,
+    "regularity_std": 53.165,
+    "velocity_rps": 0.076
+  },
+  {
+    "ip": "192.168.1.149",
+    "bot_score": 0.013,
+    "is_bot": false,
+    "nb_requests": 34,
+    "regularity_std": 71.814,
+    "velocity_rps": 0.065
+  },
+  {
+    "ip": "192.168.1.15",
+    "bot_score": 0.073,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 8.46,
+    "velocity_rps": 0.201
+  },
+  {
+    "ip": "192.168.1.152",
+    "bot_score": 0.136,
+    "is_bot": false,
+    "nb_requests": 17,
+    "regularity_std": 3.61,
+    "velocity_rps": 0.272
+  },
+  {
+    "ip": "192.168.1.153",
+    "bot_score": 0.043,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 17.406,
+    "velocity_rps": 0.153
+  },
+  {
+    "ip": "192.168.1.158",
+    "bot_score": 0.13,
+    "is_bot": false,
+    "nb_requests": 50,
+    "regularity_std": 4.095,
+    "velocity_rps": 0.32
+  },
+  {
+    "ip": "192.168.1.159",
+    "bot_score": 0.589,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 0.546,
+    "velocity_rps": 2.652
+  },
+  {
+    "ip": "192.168.1.16",
+    "bot_score": 0.07,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 8.63,
+    "velocity_rps": 0.185
+  },
+  {
+    "ip": "192.168.1.160",
+    "bot_score": 0.033,
+    "is_bot": false,
+    "nb_requests": 37,
+    "regularity_std": 24.448,
+    "velocity_rps": 0.13
+  },
+  {
+    "ip": "192.168.1.161",
+    "bot_score": 0.099,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 5.343,
+    "velocity_rps": 0.206
+  },
+  {
+    "ip": "192.168.1.162",
+    "bot_score": 0.644,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 0.418,
+    "velocity_rps": 2.911
+  },
+  {
+    "ip": "192.168.1.164",
+    "bot_score": 0.167,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 3.34,
+    "velocity_rps": 0.397
+  },
+  {
+    "ip": "192.168.1.165",
+    "bot_score": 0.519,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 0.693,
+    "velocity_rps": 2.234
+  },
+  {
+    "ip": "192.168.1.168",
+    "bot_score": 0.018,
+    "is_bot": false,
+    "nb_requests": 42,
+    "regularity_std": 64.207,
+    "velocity_rps": 0.1
+  },
+  {
+    "ip": "192.168.1.17",
+    "bot_score": 0.018,
+    "is_bot": false,
+    "nb_requests": 40,
+    "regularity_std": 55.025,
+    "velocity_rps": 0.088
+  },
+  {
+    "ip": "192.168.1.170",
+    "bot_score": 0.051,
+    "is_bot": false,
+    "nb_requests": 40,
+    "regularity_std": 20.325,
+    "velocity_rps": 0.279
+  },
+  {
+    "ip": "192.168.1.171",
+    "bot_score": 0.671,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 0.334,
+    "velocity_rps": 2.964
+  },
+  {
+    "ip": "192.168.1.172",
+    "bot_score": 0.567,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 0.555,
+    "velocity_rps": 2.451
+  },
+  {
+    "ip": "192.168.1.177",
+    "bot_score": 0.081,
+    "is_bot": false,
+    "nb_requests": 16,
+    "regularity_std": 6.878,
+    "velocity_rps": 0.179
+  },
+  {
+    "ip": "192.168.1.179",
+    "bot_score": 0.1,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 5.619,
+    "velocity_rps": 0.242
+  },
+  {
+    "ip": "192.168.1.18",
+    "bot_score": 0.047,
+    "is_bot": false,
+    "nb_requests": 35,
+    "regularity_std": 16.63,
+    "velocity_rps": 0.191
+  },
+  {
+    "ip": "192.168.1.180",
+    "bot_score": 0.541,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 0.573,
+    "velocity_rps": 2.227
+  },
+  {
+    "ip": "192.168.1.182",
+    "bot_score": 0.024,
+    "is_bot": false,
+    "nb_requests": 90,
+    "regularity_std": 44.213,
+    "velocity_rps": 0.125
+  },
+  {
+    "ip": "192.168.1.183",
+    "bot_score": 0.993,
+    "is_bot": true,
+    "nb_requests": 7,
+    "regularity_std": 0.167,
+    "velocity_rps": 5.64
+  },
+  {
+    "ip": "192.168.1.187",
+    "bot_score": 0.026,
+    "is_bot": false,
+    "nb_requests": 32,
+    "regularity_std": 31.334,
+    "velocity_rps": 0.109
+  },
+  {
+    "ip": "192.168.1.188",
+    "bot_score": 0.01,
+    "is_bot": false,
+    "nb_requests": 51,
+    "regularity_std": 109.612,
+    "velocity_rps": 0.059
+  },
+  {
+    "ip": "192.168.1.189",
+    "bot_score": 0.153,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 2.732,
+    "velocity_rps": 0.185
+  },
+  {
+    "ip": "192.168.1.195",
+    "bot_score": 0.06,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 11.15,
+    "velocity_rps": 0.186
+  },
+  {
+    "ip": "192.168.1.196",
+    "bot_score": 0.142,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 3.326,
+    "velocity_rps": 0.26
+  },
+  {
+    "ip": "192.168.1.197",
+    "bot_score": 0.132,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 3.593,
+    "velocity_rps": 0.234
+  },
+  {
+    "ip": "192.168.1.198",
+    "bot_score": 0.014,
+    "is_bot": false,
+    "nb_requests": 45,
+    "regularity_std": 64.417,
+    "velocity_rps": 0.061
+  },
+  {
+    "ip": "192.168.1.2",
+    "bot_score": 0.519,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 0.716,
+    "velocity_rps": 2.272
+  },
+  {
+    "ip": "192.168.1.201",
+    "bot_score": 0.086,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 6.654,
+    "velocity_rps": 0.206
+  },
+  {
+    "ip": "192.168.1.203",
+    "bot_score": 0.773,
+    "is_bot": true,
+    "nb_requests": 29,
+    "regularity_std": 0.258,
+    "velocity_rps": 3.759
+  },
+  {
+    "ip": "192.168.1.205",
+    "bot_score": 0.693,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 0.248,
+    "velocity_rps": 2.921
+  },
+  {
+    "ip": "192.168.1.206",
+    "bot_score": 0.084,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 6.875,
+    "velocity_rps": 0.203
+  },
+  {
+    "ip": "192.168.1.207",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 23,
+    "regularity_std": 0.169,
+    "velocity_rps": 4.656
+  },
+  {
+    "ip": "192.168.1.209",
+    "bot_score": 0.557,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 0.619,
+    "velocity_rps": 2.478
+  },
+  {
+    "ip": "192.168.1.212",
+    "bot_score": 0.1,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 5.342,
+    "velocity_rps": 0.208
+  },
+  {
+    "ip": "192.168.1.213",
+    "bot_score": 0.627,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 0.439,
+    "velocity_rps": 2.795
+  },
+  {
+    "ip": "192.168.1.218",
+    "bot_score": 0.007,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 157.326,
+    "velocity_rps": 0.034
+  },
+  {
+    "ip": "192.168.1.219",
+    "bot_score": 0.635,
+    "is_bot": false,
+    "nb_requests": 16,
+    "regularity_std": 0.458,
+    "velocity_rps": 2.916
+  },
+  {
+    "ip": "192.168.1.221",
+    "bot_score": 0.025,
+    "is_bot": false,
+    "nb_requests": 39,
+    "regularity_std": 35.507,
+    "velocity_rps": 0.113
+  },
+  {
+    "ip": "192.168.1.223",
+    "bot_score": 0.039,
+    "is_bot": false,
+    "nb_requests": 36,
+    "regularity_std": 26.679,
+    "velocity_rps": 0.209
+  },
+  {
+    "ip": "192.168.1.225",
+    "bot_score": 0.055,
+    "is_bot": false,
+    "nb_requests": 51,
+    "regularity_std": 14.366,
+    "velocity_rps": 0.222
+  },
+  {
+    "ip": "192.168.1.226",
+    "bot_score": 0.664,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 0.346,
+    "velocity_rps": 2.922
+  },
+  {
+    "ip": "192.168.1.227",
+    "bot_score": 0.059,
+    "is_bot": false,
+    "nb_requests": 36,
+    "regularity_std": 15.004,
+    "velocity_rps": 0.282
+  },
+  {
+    "ip": "192.168.1.229",
+    "bot_score": 0.115,
+    "is_bot": false,
+    "nb_requests": 22,
+    "regularity_std": 4.425,
+    "velocity_rps": 0.227
+  },
+  {
+    "ip": "192.168.1.23",
+    "bot_score": 0.698,
+    "is_bot": false,
+    "nb_requests": 16,
+    "regularity_std": 0.283,
+    "velocity_rps": 3.085
+  },
+  {
+    "ip": "192.168.1.232",
+    "bot_score": 0.027,
+    "is_bot": false,
+    "nb_requests": 33,
+    "regularity_std": 34.202,
+    "velocity_rps": 0.13
+  },
+  {
+    "ip": "192.168.1.233",
+    "bot_score": 0.009,
+    "is_bot": false,
+    "nb_requests": 40,
+    "regularity_std": 119.536,
+    "velocity_rps": 0.047
+  },
+  {
+    "ip": "192.168.1.235",
+    "bot_score": 0.036,
+    "is_bot": false,
+    "nb_requests": 42,
+    "regularity_std": 25.974,
+    "velocity_rps": 0.18
+  },
+  {
+    "ip": "192.168.1.236",
+    "bot_score": 0.174,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 2.413,
+    "velocity_rps": 0.275
+  },
+  {
+    "ip": "192.168.1.238",
+    "bot_score": 0.74,
+    "is_bot": true,
+    "nb_requests": 10,
+    "regularity_std": 0.26,
+    "velocity_rps": 3.427
+  },
+  {
+    "ip": "192.168.1.24",
+    "bot_score": 0.479,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 0.847,
+    "velocity_rps": 2.088
+  },
+  {
+    "ip": "192.168.1.240",
+    "bot_score": 0.606,
+    "is_bot": false,
+    "nb_requests": 27,
+    "regularity_std": 0.525,
+    "velocity_rps": 2.781
+  },
+  {
+    "ip": "192.168.1.242",
+    "bot_score": 0.175,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 2.287,
+    "velocity_rps": 0.231
+  },
+  {
+    "ip": "192.168.1.244",
+    "bot_score": 0.012,
+    "is_bot": false,
+    "nb_requests": 36,
+    "regularity_std": 87.678,
+    "velocity_rps": 0.068
+  },
+  {
+    "ip": "192.168.1.246",
+    "bot_score": 0.092,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 6.264,
+    "velocity_rps": 0.228
+  },
+  {
+    "ip": "192.168.1.248",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 14,
+    "regularity_std": 0.283,
+    "velocity_rps": 4.034
+  },
+  {
+    "ip": "192.168.1.249",
+    "bot_score": 0.752,
+    "is_bot": true,
+    "nb_requests": 10,
+    "regularity_std": 0.274,
+    "velocity_rps": 3.594
+  },
+  {
+    "ip": "192.168.1.25",
+    "bot_score": 0.113,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 4.624,
+    "velocity_rps": 0.239
+  },
+  {
+    "ip": "192.168.1.250",
+    "bot_score": 0.568,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 0.563,
+    "velocity_rps": 2.485
+  },
+  {
+    "ip": "192.168.1.251",
+    "bot_score": 0.019,
+    "is_bot": false,
+    "nb_requests": 63,
+    "regularity_std": 53.349,
+    "velocity_rps": 0.095
+  },
+  {
+    "ip": "192.168.1.253",
+    "bot_score": 0.029,
+    "is_bot": false,
+    "nb_requests": 59,
+    "regularity_std": 33.557,
+    "velocity_rps": 0.142
+  },
+  {
+    "ip": "192.168.1.27",
+    "bot_score": 0.171,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 2.629,
+    "velocity_rps": 0.329
+  },
+  {
+    "ip": "192.168.1.28",
+    "bot_score": 0.016,
+    "is_bot": false,
+    "nb_requests": 46,
+    "regularity_std": 59.785,
+    "velocity_rps": 0.074
+  },
+  {
+    "ip": "192.168.1.30",
+    "bot_score": 0.142,
+    "is_bot": false,
+    "nb_requests": 17,
+    "regularity_std": 3.344,
+    "velocity_rps": 0.268
+  },
+  {
+    "ip": "192.168.1.31",
+    "bot_score": 0.618,
+    "is_bot": false,
+    "nb_requests": 8,
+    "regularity_std": 0.475,
+    "velocity_rps": 2.788
+  },
+  {
+    "ip": "192.168.1.33",
+    "bot_score": 0.198,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 2.822,
+    "velocity_rps": 0.467
+  },
+  {
+    "ip": "192.168.1.36",
+    "bot_score": 0.767,
+    "is_bot": true,
+    "nb_requests": 14,
+    "regularity_std": 0.226,
+    "velocity_rps": 3.592
+  },
+  {
+    "ip": "192.168.1.38",
+    "bot_score": 0.312,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 1.651,
+    "velocity_rps": 0.584
+  },
+  {
+    "ip": "192.168.1.4",
+    "bot_score": 0.71,
+    "is_bot": true,
+    "nb_requests": 17,
+    "regularity_std": 0.235,
+    "velocity_rps": 3.056
+  },
+  {
+    "ip": "192.168.1.40",
+    "bot_score": 0.162,
+    "is_bot": false,
+    "nb_requests": 37,
+    "regularity_std": 3.293,
+    "velocity_rps": 0.451
+  },
+  {
+    "ip": "192.168.1.42",
+    "bot_score": 0.568,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 0.501,
+    "velocity_rps": 2.345
+  },
+  {
+    "ip": "192.168.1.44",
+    "bot_score": 0.185,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 2.336,
+    "velocity_rps": 0.352
+  },
+  {
+    "ip": "192.168.1.45",
+    "bot_score": 0.076,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 7.727,
+    "velocity_rps": 0.191
+  },
+  {
+    "ip": "192.168.1.46",
+    "bot_score": 0.059,
+    "is_bot": false,
+    "nb_requests": 47,
+    "regularity_std": 18.397,
+    "velocity_rps": 0.329
+  },
+  {
+    "ip": "192.168.1.49",
+    "bot_score": 0.093,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 5.758,
+    "velocity_rps": 0.187
+  },
+  {
+    "ip": "192.168.1.5",
+    "bot_score": 0.581,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 0.489,
+    "velocity_rps": 2.447
+  },
+  {
+    "ip": "192.168.1.52",
+    "bot_score": 0.094,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 5.892,
+    "velocity_rps": 0.217
+  },
+  {
+    "ip": "192.168.1.53",
+    "bot_score": 0.243,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 1.371,
+    "velocity_rps": 0.325
+  },
+  {
+    "ip": "192.168.1.54",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.193,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.1.55",
+    "bot_score": 0.084,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 6.684,
+    "velocity_rps": 0.194
+  },
+  {
+    "ip": "192.168.1.57",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 17,
+    "regularity_std": 0.166,
+    "velocity_rps": 4.983
+  },
+  {
+    "ip": "192.168.1.61",
+    "bot_score": 0.834,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.243,
+    "velocity_rps": 4.313
+  },
+  {
+    "ip": "192.168.1.62",
+    "bot_score": 0.082,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 7.052,
+    "velocity_rps": 0.2
+  },
+  {
+    "ip": "192.168.1.64",
+    "bot_score": 0.696,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 0.267,
+    "velocity_rps": 3.009
+  },
+  {
+    "ip": "192.168.1.65",
+    "bot_score": 0.059,
+    "is_bot": false,
+    "nb_requests": 180,
+    "regularity_std": 15.155,
+    "velocity_rps": 0.281
+  },
+  {
+    "ip": "192.168.1.68",
+    "bot_score": 0.033,
+    "is_bot": false,
+    "nb_requests": 53,
+    "regularity_std": 29.844,
+    "velocity_rps": 0.164
+  },
+  {
+    "ip": "192.168.1.70",
+    "bot_score": 0.142,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 3.223,
+    "velocity_rps": 0.236
+  },
+  {
+    "ip": "192.168.1.71",
+    "bot_score": 0.145,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 3.181,
+    "velocity_rps": 0.254
+  },
+  {
+    "ip": "192.168.1.73",
+    "bot_score": 0.088,
+    "is_bot": false,
+    "nb_requests": 24,
+    "regularity_std": 6.282,
+    "velocity_rps": 0.191
+  },
+  {
+    "ip": "192.168.1.76",
+    "bot_score": 0.729,
+    "is_bot": true,
+    "nb_requests": 16,
+    "regularity_std": 0.281,
+    "velocity_rps": 3.383
+  },
+  {
+    "ip": "192.168.1.77",
+    "bot_score": 0.618,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 0.371,
+    "velocity_rps": 2.528
+  },
+  {
+    "ip": "192.168.1.78",
+    "bot_score": 0.012,
+    "is_bot": false,
+    "nb_requests": 34,
+    "regularity_std": 88.572,
+    "velocity_rps": 0.06
+  },
+  {
+    "ip": "192.168.1.8",
+    "bot_score": 0.999,
+    "is_bot": true,
+    "nb_requests": 7,
+    "regularity_std": 0.168,
+    "velocity_rps": 5.713
+  },
+  {
+    "ip": "192.168.1.84",
+    "bot_score": 0.121,
+    "is_bot": false,
+    "nb_requests": 56,
+    "regularity_std": 4.535,
+    "velocity_rps": 0.308
+  },
+  {
+    "ip": "192.168.1.86",
+    "bot_score": 0.555,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 0.543,
+    "velocity_rps": 2.312
+  },
+  {
+    "ip": "192.168.1.89",
+    "bot_score": 0.151,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 3.002,
+    "velocity_rps": 0.259
+  },
+  {
+    "ip": "192.168.1.91",
+    "bot_score": 0.587,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 0.541,
+    "velocity_rps": 2.63
+  },
+  {
+    "ip": "192.168.1.93",
+    "bot_score": 0.198,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 2.077,
+    "velocity_rps": 0.355
+  },
+  {
+    "ip": "192.168.1.95",
+    "bot_score": 0.046,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 20.321,
+    "velocity_rps": 0.221
+  },
+  {
+    "ip": "192.168.1.99",
+    "bot_score": 0.698,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 0.375,
+    "velocity_rps": 3.345
+  },
+  {
+    "ip": "192.168.100.134",
+    "bot_score": 0.892,
+    "is_bot": true,
+    "nb_requests": 26,
+    "regularity_std": 0.174,
+    "velocity_rps": 4.661
+  },
+  {
+    "ip": "192.168.100.238",
+    "bot_score": 0.778,
+    "is_bot": true,
+    "nb_requests": 24,
+    "regularity_std": 0.266,
+    "velocity_rps": 3.829
+  },
+  {
+    "ip": "192.168.100.240",
+    "bot_score": 0.872,
+    "is_bot": true,
+    "nb_requests": 26,
+    "regularity_std": 0.207,
+    "velocity_rps": 4.577
+  },
+  {
+    "ip": "192.168.100.253",
+    "bot_score": 0.238,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 1.808,
+    "velocity_rps": 0.6
+  },
+  {
+    "ip": "192.168.100.7",
+    "bot_score": 0.843,
+    "is_bot": true,
+    "nb_requests": 24,
+    "regularity_std": 0.224,
+    "velocity_rps": 4.346
+  },
+  {
+    "ip": "192.168.101.27",
+    "bot_score": 0.295,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 1.412,
+    "velocity_rps": 0.876
+  },
+  {
+    "ip": "192.168.103.223",
+    "bot_score": 0.802,
+    "is_bot": true,
+    "nb_requests": 11,
+    "regularity_std": 0.228,
+    "velocity_rps": 3.949
+  },
+  {
+    "ip": "192.168.109.111",
+    "bot_score": 0.806,
+    "is_bot": true,
+    "nb_requests": 28,
+    "regularity_std": 0.29,
+    "velocity_rps": 4.18
+  },
+  {
+    "ip": "192.168.109.204",
+    "bot_score": 0.822,
+    "is_bot": true,
+    "nb_requests": 12,
+    "regularity_std": 0.193,
+    "velocity_rps": 4.029
+  },
+  {
+    "ip": "192.168.109.248",
+    "bot_score": 0.243,
+    "is_bot": false,
+    "nb_requests": 24,
+    "regularity_std": 1.607,
+    "velocity_rps": 0.507
+  },
+  {
+    "ip": "192.168.11.19",
+    "bot_score": 0.841,
+    "is_bot": true,
+    "nb_requests": 24,
+    "regularity_std": 0.248,
+    "velocity_rps": 4.403
+  },
+  {
+    "ip": "192.168.11.57",
+    "bot_score": 0.764,
+    "is_bot": true,
+    "nb_requests": 23,
+    "regularity_std": 0.411,
+    "velocity_rps": 4.097
+  },
+  {
+    "ip": "192.168.110.113",
+    "bot_score": 0.156,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 3.141,
+    "velocity_rps": 0.355
+  },
+  {
+    "ip": "192.168.111.196",
+    "bot_score": 0.169,
+    "is_bot": false,
+    "nb_requests": 22,
+    "regularity_std": 2.905,
+    "velocity_rps": 0.411
+  },
+  {
+    "ip": "192.168.112.76",
+    "bot_score": 0.191,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 2.441,
+    "velocity_rps": 0.452
+  },
+  {
+    "ip": "192.168.115.59",
+    "bot_score": 0.188,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 2.438,
+    "velocity_rps": 0.429
+  },
+  {
+    "ip": "192.168.115.62",
+    "bot_score": 0.847,
+    "is_bot": true,
+    "nb_requests": 7,
+    "regularity_std": 0.268,
+    "velocity_rps": 4.532
+  },
+  {
+    "ip": "192.168.116.245",
+    "bot_score": 0.817,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.249,
+    "velocity_rps": 4.168
+  },
+  {
+    "ip": "192.168.121.180",
+    "bot_score": 0.95,
+    "is_bot": true,
+    "nb_requests": 11,
+    "regularity_std": 0.161,
+    "velocity_rps": 5.19
+  },
+  {
+    "ip": "192.168.121.252",
+    "bot_score": 0.835,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.225,
+    "velocity_rps": 4.264
+  },
+  {
+    "ip": "192.168.123.154",
+    "bot_score": 0.315,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 0.995,
+    "velocity_rps": 0.639
+  },
+  {
+    "ip": "192.168.123.213",
+    "bot_score": 0.232,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 1.776,
+    "velocity_rps": 0.516
+  },
+  {
+    "ip": "192.168.124.67",
+    "bot_score": 0.187,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 2.538,
+    "velocity_rps": 0.455
+  },
+  {
+    "ip": "192.168.125.117",
+    "bot_score": 0.279,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 1.132,
+    "velocity_rps": 0.446
+  },
+  {
+    "ip": "192.168.125.12",
+    "bot_score": 0.192,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 2.384,
+    "velocity_rps": 0.437
+  },
+  {
+    "ip": "192.168.127.177",
+    "bot_score": 0.161,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 3.025,
+    "velocity_rps": 0.365
+  },
+  {
+    "ip": "192.168.127.230",
+    "bot_score": 0.975,
+    "is_bot": true,
+    "nb_requests": 12,
+    "regularity_std": 0.169,
+    "velocity_rps": 5.475
+  },
+  {
+    "ip": "192.168.127.238",
+    "bot_score": 0.194,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 2.419,
+    "velocity_rps": 0.479
+  },
+  {
+    "ip": "192.168.128.182",
+    "bot_score": 0.847,
+    "is_bot": true,
+    "nb_requests": 10,
+    "regularity_std": 0.193,
+    "velocity_rps": 4.278
+  },
+  {
+    "ip": "192.168.128.243",
+    "bot_score": 0.179,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 2.667,
+    "velocity_rps": 0.428
+  },
+  {
+    "ip": "192.168.13.164",
+    "bot_score": 0.762,
+    "is_bot": true,
+    "nb_requests": 29,
+    "regularity_std": 0.357,
+    "velocity_rps": 3.934
+  },
+  {
+    "ip": "192.168.132.27",
+    "bot_score": 0.214,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 2.055,
+    "velocity_rps": 0.504
+  },
+  {
+    "ip": "192.168.135.92",
+    "bot_score": 0.842,
+    "is_bot": true,
+    "nb_requests": 15,
+    "regularity_std": 0.163,
+    "velocity_rps": 4.126
+  },
+  {
+    "ip": "192.168.138.137",
+    "bot_score": 0.734,
+    "is_bot": true,
+    "nb_requests": 26,
+    "regularity_std": 0.387,
+    "velocity_rps": 3.73
+  },
+  {
+    "ip": "192.168.138.34",
+    "bot_score": 0.742,
+    "is_bot": true,
+    "nb_requests": 27,
+    "regularity_std": 0.396,
+    "velocity_rps": 3.835
+  },
+  {
+    "ip": "192.168.14.181",
+    "bot_score": 0.202,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 2.24,
+    "velocity_rps": 0.48
+  },
+  {
+    "ip": "192.168.14.28",
+    "bot_score": 0.201,
+    "is_bot": false,
+    "nb_requests": 24,
+    "regularity_std": 2.145,
+    "velocity_rps": 0.423
+  },
+  {
+    "ip": "192.168.140.213",
+    "bot_score": 0.096,
+    "is_bot": false,
+    "nb_requests": 17,
+    "regularity_std": 7.463,
+    "velocity_rps": 0.366
+  },
+  {
+    "ip": "192.168.140.40",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.115,
+    "velocity_rps": 5.858
+  },
+  {
+    "ip": "192.168.140.78",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 6,
+    "regularity_std": 0.087,
+    "velocity_rps": 6.0
+  },
+  {
+    "ip": "192.168.141.148",
+    "bot_score": 0.915,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.203,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.142.203",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.164,
+    "velocity_rps": 6.728
+  },
+  {
+    "ip": "192.168.143.59",
+    "bot_score": 0.929,
+    "is_bot": true,
+    "nb_requests": 11,
+    "regularity_std": 0.126,
+    "velocity_rps": 4.854
+  },
+  {
+    "ip": "192.168.148.101",
+    "bot_score": 0.829,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.239,
+    "velocity_rps": 4.251
+  },
+  {
+    "ip": "192.168.149.20",
+    "bot_score": 0.773,
+    "is_bot": true,
+    "nb_requests": 15,
+    "regularity_std": 0.38,
+    "velocity_rps": 4.106
+  },
+  {
+    "ip": "192.168.149.83",
+    "bot_score": 0.915,
+    "is_bot": true,
+    "nb_requests": 9,
+    "regularity_std": 0.133,
+    "velocity_rps": 4.733
+  },
+  {
+    "ip": "192.168.15.145",
+    "bot_score": 0.782,
+    "is_bot": true,
+    "nb_requests": 29,
+    "regularity_std": 0.237,
+    "velocity_rps": 3.777
+  },
+  {
+    "ip": "192.168.150.19",
+    "bot_score": 0.33,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 0.841,
+    "velocity_rps": 0.586
+  },
+  {
+    "ip": "192.168.150.206",
+    "bot_score": 0.883,
+    "is_bot": true,
+    "nb_requests": 18,
+    "regularity_std": 0.173,
+    "velocity_rps": 4.568
+  },
+  {
+    "ip": "192.168.152.71",
+    "bot_score": 0.857,
+    "is_bot": true,
+    "nb_requests": 30,
+    "regularity_std": 0.248,
+    "velocity_rps": 4.563
+  },
+  {
+    "ip": "192.168.153.8",
+    "bot_score": 0.842,
+    "is_bot": true,
+    "nb_requests": 27,
+    "regularity_std": 0.184,
+    "velocity_rps": 4.201
+  },
+  {
+    "ip": "192.168.156.160",
+    "bot_score": 0.82,
+    "is_bot": true,
+    "nb_requests": 23,
+    "regularity_std": 0.279,
+    "velocity_rps": 4.295
+  },
+  {
+    "ip": "192.168.157.140",
+    "bot_score": 0.293,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 1.05,
+    "velocity_rps": 0.487
+  },
+  {
+    "ip": "192.168.159.74",
+    "bot_score": 0.27,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 1.289,
+    "velocity_rps": 0.51
+  },
+  {
+    "ip": "192.168.160.59",
+    "bot_score": 0.848,
+    "is_bot": true,
+    "nb_requests": 22,
+    "regularity_std": 0.168,
+    "velocity_rps": 4.194
+  },
+  {
+    "ip": "192.168.164.247",
+    "bot_score": 0.193,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 2.348,
+    "velocity_rps": 0.441
+  },
+  {
+    "ip": "192.168.166.67",
+    "bot_score": 0.166,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 2.953,
+    "velocity_rps": 0.399
+  },
+  {
+    "ip": "192.168.167.22",
+    "bot_score": 0.249,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 1.635,
+    "velocity_rps": 0.588
+  },
+  {
+    "ip": "192.168.168.221",
+    "bot_score": 0.94,
+    "is_bot": true,
+    "nb_requests": 14,
+    "regularity_std": 0.149,
+    "velocity_rps": 5.053
+  },
+  {
+    "ip": "192.168.169.225",
+    "bot_score": 0.165,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 3.075,
+    "velocity_rps": 0.419
+  },
+  {
+    "ip": "192.168.169.67",
+    "bot_score": 0.989,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.113,
+    "velocity_rps": 5.399
+  },
+  {
+    "ip": "192.168.171.198",
+    "bot_score": 0.214,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 1.95,
+    "velocity_rps": 0.442
+  },
+  {
+    "ip": "192.168.171.68",
+    "bot_score": 0.208,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 2.128,
+    "velocity_rps": 0.486
+  },
+  {
+    "ip": "192.168.172.211",
+    "bot_score": 0.16,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 3.276,
+    "velocity_rps": 0.432
+  },
+  {
+    "ip": "192.168.174.215",
+    "bot_score": 0.374,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 0.673,
+    "velocity_rps": 0.75
+  },
+  {
+    "ip": "192.168.175.154",
+    "bot_score": 0.742,
+    "is_bot": true,
+    "nb_requests": 29,
+    "regularity_std": 0.338,
+    "velocity_rps": 3.679
+  },
+  {
+    "ip": "192.168.176.172",
+    "bot_score": 0.797,
+    "is_bot": true,
+    "nb_requests": 17,
+    "regularity_std": 0.278,
+    "velocity_rps": 4.054
+  },
+  {
+    "ip": "192.168.177.216",
+    "bot_score": 0.88,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.204,
+    "velocity_rps": 4.652
+  },
+  {
+    "ip": "192.168.177.60",
+    "bot_score": 0.166,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 2.979,
+    "velocity_rps": 0.405
+  },
+  {
+    "ip": "192.168.178.134",
+    "bot_score": 0.159,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 3.104,
+    "velocity_rps": 0.374
+  },
+  {
+    "ip": "192.168.18.229",
+    "bot_score": 0.206,
+    "is_bot": false,
+    "nb_requests": 24,
+    "regularity_std": 2.06,
+    "velocity_rps": 0.423
+  },
+  {
+    "ip": "192.168.180.96",
+    "bot_score": 0.246,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 1.654,
+    "velocity_rps": 0.571
+  },
+  {
+    "ip": "192.168.181.115",
+    "bot_score": 0.967,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.07,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.182.71",
+    "bot_score": 0.304,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 1.352,
+    "velocity_rps": 0.91
+  },
+  {
+    "ip": "192.168.183.108",
+    "bot_score": 0.189,
+    "is_bot": false,
+    "nb_requests": 17,
+    "regularity_std": 2.445,
+    "velocity_rps": 0.437
+  },
+  {
+    "ip": "192.168.184.173",
+    "bot_score": 0.854,
+    "is_bot": true,
+    "nb_requests": 26,
+    "regularity_std": 0.289,
+    "velocity_rps": 4.657
+  },
+  {
+    "ip": "192.168.187.63",
+    "bot_score": 0.872,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.162,
+    "velocity_rps": 4.418
+  },
+  {
+    "ip": "192.168.191.186",
+    "bot_score": 0.185,
+    "is_bot": false,
+    "nb_requests": 22,
+    "regularity_std": 2.556,
+    "velocity_rps": 0.44
+  },
+  {
+    "ip": "192.168.193.142",
+    "bot_score": 0.932,
+    "is_bot": true,
+    "nb_requests": 25,
+    "regularity_std": 0.151,
+    "velocity_rps": 4.976
+  },
+  {
+    "ip": "192.168.198.250",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 11,
+    "regularity_std": 0.127,
+    "velocity_rps": 5.645
+  },
+  {
+    "ip": "192.168.199.63",
+    "bot_score": 0.178,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 2.754,
+    "velocity_rps": 0.443
+  },
+  {
+    "ip": "192.168.2.241",
+    "bot_score": 0.972,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.059,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.20.175",
+    "bot_score": 0.816,
+    "is_bot": true,
+    "nb_requests": 26,
+    "regularity_std": 0.319,
+    "velocity_rps": 4.369
+  },
+  {
+    "ip": "192.168.20.38",
+    "bot_score": 0.154,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 3.443,
+    "velocity_rps": 0.419
+  },
+  {
+    "ip": "192.168.201.173",
+    "bot_score": 0.741,
+    "is_bot": true,
+    "nb_requests": 24,
+    "regularity_std": 0.306,
+    "velocity_rps": 3.585
+  },
+  {
+    "ip": "192.168.202.133",
+    "bot_score": 0.895,
+    "is_bot": true,
+    "nb_requests": 25,
+    "regularity_std": 0.182,
+    "velocity_rps": 4.716
+  },
+  {
+    "ip": "192.168.204.43",
+    "bot_score": 0.936,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.147,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.205.12",
+    "bot_score": 0.798,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.283,
+    "velocity_rps": 4.085
+  },
+  {
+    "ip": "192.168.207.148",
+    "bot_score": 0.157,
+    "is_bot": false,
+    "nb_requests": 16,
+    "regularity_std": 3.177,
+    "velocity_rps": 0.368
+  },
+  {
+    "ip": "192.168.207.173",
+    "bot_score": 0.909,
+    "is_bot": true,
+    "nb_requests": 26,
+    "regularity_std": 0.161,
+    "velocity_rps": 4.788
+  },
+  {
+    "ip": "192.168.209.103",
+    "bot_score": 0.204,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 2.279,
+    "velocity_rps": 0.517
+  },
+  {
+    "ip": "192.168.209.52",
+    "bot_score": 0.268,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 1.506,
+    "velocity_rps": 0.685
+  },
+  {
+    "ip": "192.168.21.78",
+    "bot_score": 0.346,
+    "is_bot": false,
+    "nb_requests": 8,
+    "regularity_std": 0.83,
+    "velocity_rps": 0.731
+  },
+  {
+    "ip": "192.168.210.131",
+    "bot_score": 0.816,
+    "is_bot": true,
+    "nb_requests": 15,
+    "regularity_std": 0.187,
+    "velocity_rps": 3.954
+  },
+  {
+    "ip": "192.168.211.215",
+    "bot_score": 0.216,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 2.054,
+    "velocity_rps": 0.521
+  },
+  {
+    "ip": "192.168.212.202",
+    "bot_score": 0.811,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.219,
+    "velocity_rps": 4.005
+  },
+  {
+    "ip": "192.168.212.236",
+    "bot_score": 0.335,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 0.987,
+    "velocity_rps": 0.839
+  },
+  {
+    "ip": "192.168.213.213",
+    "bot_score": 0.222,
+    "is_bot": false,
+    "nb_requests": 9,
+    "regularity_std": 1.881,
+    "velocity_rps": 0.486
+  },
+  {
+    "ip": "192.168.213.226",
+    "bot_score": 0.192,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 2.706,
+    "velocity_rps": 0.568
+  },
+  {
+    "ip": "192.168.213.254",
+    "bot_score": 0.787,
+    "is_bot": true,
+    "nb_requests": 27,
+    "regularity_std": 0.297,
+    "velocity_rps": 4.016
+  },
+  {
+    "ip": "192.168.214.106",
+    "bot_score": 0.982,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.038,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.214.225",
+    "bot_score": 0.2,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 2.164,
+    "velocity_rps": 0.416
+  },
+  {
+    "ip": "192.168.219.140",
+    "bot_score": 0.886,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.224,
+    "velocity_rps": 4.777
+  },
+  {
+    "ip": "192.168.219.26",
+    "bot_score": 0.841,
+    "is_bot": true,
+    "nb_requests": 23,
+    "regularity_std": 0.253,
+    "velocity_rps": 4.422
+  },
+  {
+    "ip": "192.168.219.69",
+    "bot_score": 0.87,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.176,
+    "velocity_rps": 4.451
+  },
+  {
+    "ip": "192.168.22.129",
+    "bot_score": 0.165,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 2.916,
+    "velocity_rps": 0.378
+  },
+  {
+    "ip": "192.168.22.35",
+    "bot_score": 0.22,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 2.116,
+    "velocity_rps": 0.593
+  },
+  {
+    "ip": "192.168.221.120",
+    "bot_score": 0.155,
+    "is_bot": false,
+    "nb_requests": 27,
+    "regularity_std": 3.669,
+    "velocity_rps": 0.477
+  },
+  {
+    "ip": "192.168.223.166",
+    "bot_score": 0.787,
+    "is_bot": true,
+    "nb_requests": 21,
+    "regularity_std": 0.303,
+    "velocity_rps": 4.038
+  },
+  {
+    "ip": "192.168.223.191",
+    "bot_score": 0.176,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 2.604,
+    "velocity_rps": 0.377
+  },
+  {
+    "ip": "192.168.223.236",
+    "bot_score": 0.191,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 2.433,
+    "velocity_rps": 0.452
+  },
+  {
+    "ip": "192.168.225.131",
+    "bot_score": 0.734,
+    "is_bot": true,
+    "nb_requests": 25,
+    "regularity_std": 0.444,
+    "velocity_rps": 3.88
+  },
+  {
+    "ip": "192.168.225.191",
+    "bot_score": 0.199,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 2.596,
+    "velocity_rps": 0.6
+  },
+  {
+    "ip": "192.168.225.219",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.121,
+    "velocity_rps": 5.847
+  },
+  {
+    "ip": "192.168.227.242",
+    "bot_score": 0.121,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 4.931,
+    "velocity_rps": 0.368
+  },
+  {
+    "ip": "192.168.229.36",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 7,
+    "regularity_std": 0.132,
+    "velocity_rps": 6.096
+  },
+  {
+    "ip": "192.168.230.70",
+    "bot_score": 0.183,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 2.485,
+    "velocity_rps": 0.39
+  },
+  {
+    "ip": "192.168.230.88",
+    "bot_score": 0.857,
+    "is_bot": true,
+    "nb_requests": 14,
+    "regularity_std": 0.238,
+    "velocity_rps": 4.531
+  },
+  {
+    "ip": "192.168.232.234",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 6,
+    "regularity_std": 0.076,
+    "velocity_rps": 6.0
+  },
+  {
+    "ip": "192.168.233.174",
+    "bot_score": 0.19,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 2.373,
+    "velocity_rps": 0.418
+  },
+  {
+    "ip": "192.168.234.150",
+    "bot_score": 0.165,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 3.579,
+    "velocity_rps": 0.559
+  },
+  {
+    "ip": "192.168.234.53",
+    "bot_score": 0.958,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.092,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.238.215",
+    "bot_score": 0.755,
+    "is_bot": true,
+    "nb_requests": 18,
+    "regularity_std": 0.285,
+    "velocity_rps": 3.664
+  },
+  {
+    "ip": "192.168.239.134",
+    "bot_score": 0.931,
+    "is_bot": true,
+    "nb_requests": 17,
+    "regularity_std": 0.184,
+    "velocity_rps": 5.087
+  },
+  {
+    "ip": "192.168.239.49",
+    "bot_score": 0.169,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 2.84,
+    "velocity_rps": 0.387
+  },
+  {
+    "ip": "192.168.24.206",
+    "bot_score": 0.402,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 0.575,
+    "velocity_rps": 0.842
+  },
+  {
+    "ip": "192.168.240.50",
+    "bot_score": 0.885,
+    "is_bot": true,
+    "nb_requests": 22,
+    "regularity_std": 0.185,
+    "velocity_rps": 4.628
+  },
+  {
+    "ip": "192.168.244.100",
+    "bot_score": 0.306,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 1.058,
+    "velocity_rps": 0.627
+  },
+  {
+    "ip": "192.168.244.137",
+    "bot_score": 0.894,
+    "is_bot": true,
+    "nb_requests": 27,
+    "regularity_std": 0.182,
+    "velocity_rps": 4.706
+  },
+  {
+    "ip": "192.168.244.46",
+    "bot_score": 0.779,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.301,
+    "velocity_rps": 3.944
+  },
+  {
+    "ip": "192.168.246.198",
+    "bot_score": 0.323,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 0.965,
+    "velocity_rps": 0.69
+  },
+  {
+    "ip": "192.168.246.220",
+    "bot_score": 0.231,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 1.741,
+    "velocity_rps": 0.486
+  },
+  {
+    "ip": "192.168.246.245",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 14,
+    "regularity_std": 0.12,
+    "velocity_rps": 5.558
+  },
+  {
+    "ip": "192.168.25.125",
+    "bot_score": 0.854,
+    "is_bot": true,
+    "nb_requests": 21,
+    "regularity_std": 0.211,
+    "velocity_rps": 4.409
+  },
+  {
+    "ip": "192.168.25.15",
+    "bot_score": 0.838,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.179,
+    "velocity_rps": 4.139
+  },
+  {
+    "ip": "192.168.254.247",
+    "bot_score": 0.709,
+    "is_bot": true,
+    "nb_requests": 21,
+    "regularity_std": 0.394,
+    "velocity_rps": 3.503
+  },
+  {
+    "ip": "192.168.26.144",
+    "bot_score": 0.254,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 1.398,
+    "velocity_rps": 0.455
+  },
+  {
+    "ip": "192.168.26.22",
+    "bot_score": 0.827,
+    "is_bot": true,
+    "nb_requests": 16,
+    "regularity_std": 0.228,
+    "velocity_rps": 4.199
+  },
+  {
+    "ip": "192.168.29.180",
+    "bot_score": 0.114,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 5.7,
+    "velocity_rps": 0.389
+  },
+  {
+    "ip": "192.168.29.37",
+    "bot_score": 0.822,
+    "is_bot": true,
+    "nb_requests": 26,
+    "regularity_std": 0.243,
+    "velocity_rps": 4.198
+  },
+  {
+    "ip": "192.168.3.183",
+    "bot_score": 0.2,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 2.296,
+    "velocity_rps": 0.485
+  },
+  {
+    "ip": "192.168.3.58",
+    "bot_score": 0.937,
+    "is_bot": true,
+    "nb_requests": 20,
+    "regularity_std": 0.209,
+    "velocity_rps": 5.238
+  },
+  {
+    "ip": "192.168.30.13",
+    "bot_score": 0.2,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 2.201,
+    "velocity_rps": 0.44
+  },
+  {
+    "ip": "192.168.33.110",
+    "bot_score": 0.19,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 2.347,
+    "velocity_rps": 0.407
+  },
+  {
+    "ip": "192.168.38.69",
+    "bot_score": 0.94,
+    "is_bot": true,
+    "nb_requests": 20,
+    "regularity_std": 0.191,
+    "velocity_rps": 5.205
+  },
+  {
+    "ip": "192.168.39.237",
+    "bot_score": 0.179,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 2.504,
+    "velocity_rps": 0.366
+  },
+  {
+    "ip": "192.168.4.214",
+    "bot_score": 0.368,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 0.883,
+    "velocity_rps": 1.023
+  },
+  {
+    "ip": "192.168.42.143",
+    "bot_score": 0.176,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 2.678,
+    "velocity_rps": 0.405
+  },
+  {
+    "ip": "192.168.42.176",
+    "bot_score": 0.231,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 1.85,
+    "velocity_rps": 0.558
+  },
+  {
+    "ip": "192.168.42.228",
+    "bot_score": 0.21,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 2.059,
+    "velocity_rps": 0.465
+  },
+  {
+    "ip": "192.168.42.29",
+    "bot_score": 0.778,
+    "is_bot": true,
+    "nb_requests": 9,
+    "regularity_std": 0.257,
+    "velocity_rps": 3.806
+  },
+  {
+    "ip": "192.168.44.26",
+    "bot_score": 0.186,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 2.567,
+    "velocity_rps": 0.457
+  },
+  {
+    "ip": "192.168.46.57",
+    "bot_score": 0.963,
+    "is_bot": true,
+    "nb_requests": 28,
+    "regularity_std": 0.148,
+    "velocity_rps": 5.279
+  },
+  {
+    "ip": "192.168.46.82",
+    "bot_score": 0.918,
+    "is_bot": true,
+    "nb_requests": 11,
+    "regularity_std": 0.18,
+    "velocity_rps": 4.947
+  },
+  {
+    "ip": "192.168.48.148",
+    "bot_score": 0.899,
+    "is_bot": true,
+    "nb_requests": 7,
+    "regularity_std": 0.196,
+    "velocity_rps": 4.813
+  },
+  {
+    "ip": "192.168.49.252",
+    "bot_score": 0.915,
+    "is_bot": true,
+    "nb_requests": 9,
+    "regularity_std": 0.131,
+    "velocity_rps": 4.726
+  },
+  {
+    "ip": "192.168.50.24",
+    "bot_score": 0.158,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 3.203,
+    "velocity_rps": 0.388
+  },
+  {
+    "ip": "192.168.50.43",
+    "bot_score": 0.328,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 0.87,
+    "velocity_rps": 0.607
+  },
+  {
+    "ip": "192.168.51.177",
+    "bot_score": 0.176,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 2.681,
+    "velocity_rps": 0.399
+  },
+  {
+    "ip": "192.168.53.78",
+    "bot_score": 0.833,
+    "is_bot": true,
+    "nb_requests": 13,
+    "regularity_std": 0.288,
+    "velocity_rps": 4.447
+  },
+  {
+    "ip": "192.168.55.174",
+    "bot_score": 0.149,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 3.498,
+    "velocity_rps": 0.376
+  },
+  {
+    "ip": "192.168.55.20",
+    "bot_score": 0.85,
+    "is_bot": true,
+    "nb_requests": 11,
+    "regularity_std": 0.272,
+    "velocity_rps": 4.569
+  },
+  {
+    "ip": "192.168.57.189",
+    "bot_score": 0.242,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 1.756,
+    "velocity_rps": 0.602
+  },
+  {
+    "ip": "192.168.58.73",
+    "bot_score": 0.244,
+    "is_bot": false,
+    "nb_requests": 8,
+    "regularity_std": 1.738,
+    "velocity_rps": 0.612
+  },
+  {
+    "ip": "192.168.6.24",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.131,
+    "velocity_rps": 5.816
+  },
+  {
+    "ip": "192.168.61.192",
+    "bot_score": 0.863,
+    "is_bot": true,
+    "nb_requests": 23,
+    "regularity_std": 0.258,
+    "velocity_rps": 4.66
+  },
+  {
+    "ip": "192.168.63.77",
+    "bot_score": 0.228,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 1.9,
+    "velocity_rps": 0.561
+  },
+  {
+    "ip": "192.168.64.127",
+    "bot_score": 0.203,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 2.234,
+    "velocity_rps": 0.481
+  },
+  {
+    "ip": "192.168.64.166",
+    "bot_score": 0.851,
+    "is_bot": true,
+    "nb_requests": 30,
+    "regularity_std": 0.229,
+    "velocity_rps": 4.445
+  },
+  {
+    "ip": "192.168.64.89",
+    "bot_score": 0.237,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 1.624,
+    "velocity_rps": 0.462
+  },
+  {
+    "ip": "192.168.65.112",
+    "bot_score": 0.171,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 2.868,
+    "velocity_rps": 0.415
+  },
+  {
+    "ip": "192.168.67.21",
+    "bot_score": 0.224,
+    "is_bot": false,
+    "nb_requests": 17,
+    "regularity_std": 1.881,
+    "velocity_rps": 0.505
+  },
+  {
+    "ip": "192.168.68.181",
+    "bot_score": 0.206,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 2.11,
+    "velocity_rps": 0.453
+  },
+  {
+    "ip": "192.168.70.219",
+    "bot_score": 0.169,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 3.006,
+    "velocity_rps": 0.445
+  },
+  {
+    "ip": "192.168.75.96",
+    "bot_score": 0.181,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 2.623,
+    "velocity_rps": 0.433
+  },
+  {
+    "ip": "192.168.77.248",
+    "bot_score": 0.32,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 1.259,
+    "velocity_rps": 0.982
+  },
+  {
+    "ip": "192.168.78.118",
+    "bot_score": 0.205,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 2.181,
+    "velocity_rps": 0.476
+  },
+  {
+    "ip": "192.168.78.32",
+    "bot_score": 0.187,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 2.585,
+    "velocity_rps": 0.478
+  },
+  {
+    "ip": "192.168.79.130",
+    "bot_score": 0.782,
+    "is_bot": true,
+    "nb_requests": 11,
+    "regularity_std": 0.207,
+    "velocity_rps": 3.681
+  },
+  {
+    "ip": "192.168.82.203",
+    "bot_score": 0.194,
+    "is_bot": false,
+    "nb_requests": 9,
+    "regularity_std": 2.293,
+    "velocity_rps": 0.425
+  },
+  {
+    "ip": "192.168.82.4",
+    "bot_score": 0.231,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 1.742,
+    "velocity_rps": 0.487
+  },
+  {
+    "ip": "192.168.86.118",
+    "bot_score": 0.158,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 3.353,
+    "velocity_rps": 0.433
+  },
+  {
+    "ip": "192.168.87.114",
+    "bot_score": 0.472,
+    "is_bot": false,
+    "nb_requests": 5,
+    "regularity_std": 0.504,
+    "velocity_rps": 1.391
+  },
+  {
+    "ip": "192.168.87.72",
+    "bot_score": 0.187,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 2.597,
+    "velocity_rps": 0.484
+  },
+  {
+    "ip": "192.168.88.36",
+    "bot_score": 0.224,
+    "is_bot": false,
+    "nb_requests": 24,
+    "regularity_std": 1.816,
+    "velocity_rps": 0.462
+  },
+  {
+    "ip": "192.168.88.72",
+    "bot_score": 0.193,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 2.349,
+    "velocity_rps": 0.441
+  },
+  {
+    "ip": "192.168.9.162",
+    "bot_score": 0.926,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.173,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.9.201",
+    "bot_score": 0.224,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 2.01,
+    "velocity_rps": 0.58
+  },
+  {
+    "ip": "192.168.90.197",
+    "bot_score": 0.247,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 1.718,
+    "velocity_rps": 0.635
+  },
+  {
+    "ip": "192.168.90.218",
+    "bot_score": 0.183,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 2.598,
+    "velocity_rps": 0.442
+  },
+  {
+    "ip": "192.168.90.54",
+    "bot_score": 1.0,
+    "is_bot": true,
+    "nb_requests": 7,
+    "regularity_std": 0.132,
+    "velocity_rps": 7.0
+  },
+  {
+    "ip": "192.168.91.174",
+    "bot_score": 0.174,
+    "is_bot": false,
+    "nb_requests": 22,
+    "regularity_std": 2.678,
+    "velocity_rps": 0.377
+  },
+  {
+    "ip": "192.168.91.68",
+    "bot_score": 0.792,
+    "is_bot": true,
+    "nb_requests": 15,
+    "regularity_std": 0.258,
+    "velocity_rps": 3.941
+  },
+  {
+    "ip": "192.168.93.121",
+    "bot_score": 0.806,
+    "is_bot": true,
+    "nb_requests": 18,
+    "regularity_std": 0.265,
+    "velocity_rps": 4.108
+  },
+  {
+    "ip": "192.168.93.194",
+    "bot_score": 0.876,
+    "is_bot": true,
+    "nb_requests": 9,
+    "regularity_std": 0.185,
+    "velocity_rps": 4.543
+  },
+  {
+    "ip": "192.168.95.39",
+    "bot_score": 0.223,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 2.083,
+    "velocity_rps": 0.604
+  },
+  {
+    "ip": "192.168.96.132",
+    "bot_score": 0.752,
+    "is_bot": true,
+    "nb_requests": 29,
+    "regularity_std": 0.338,
+    "velocity_rps": 3.786
+  },
+  {
+    "ip": "192.168.97.115",
+    "bot_score": 0.958,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.091,
+    "velocity_rps": 5.0
+  },
+  {
+    "ip": "192.168.98.168",
+    "bot_score": 0.902,
+    "is_bot": true,
+    "nb_requests": 6,
+    "regularity_std": 0.191,
+    "velocity_rps": 4.823
+  },
+  {
+    "ip": "192.168.1.10",
+    "bot_score": 0.558,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 0.548,
+    "velocity_rps": 2.348
+  },
+  {
+    "ip": "192.168.1.107",
+    "bot_score": 0.018,
+    "is_bot": false,
+    "nb_requests": 56,
+    "regularity_std": 59.088,
+    "velocity_rps": 0.099
+  },
+  {
+    "ip": "192.168.1.111",
+    "bot_score": 0.043,
+    "is_bot": false,
+    "nb_requests": 31,
+    "regularity_std": 19.975,
+    "velocity_rps": 0.195
+  },
+  {
+    "ip": "192.168.1.114",
+    "bot_score": 0.02,
+    "is_bot": false,
+    "nb_requests": 55,
+    "regularity_std": 53.256,
+    "velocity_rps": 0.111
+  },
+  {
+    "ip": "192.168.1.116",
+    "bot_score": 0.217,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 2.163,
+    "velocity_rps": 0.594
+  },
+  {
+    "ip": "192.168.1.119",
+    "bot_score": 0.103,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 5.207,
+    "velocity_rps": 0.222
+  },
+  {
+    "ip": "192.168.1.124",
+    "bot_score": 0.072,
+    "is_bot": false,
+    "nb_requests": 9,
+    "regularity_std": 8.616,
+    "velocity_rps": 0.195
+  },
+  {
+    "ip": "192.168.1.125",
+    "bot_score": 0.573,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 0.55,
+    "velocity_rps": 2.506
+  },
+  {
+    "ip": "192.168.1.128",
+    "bot_score": 0.077,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 8.31,
+    "velocity_rps": 0.228
+  },
+  {
+    "ip": "192.168.1.130",
+    "bot_score": 0.6,
+    "is_bot": false,
+    "nb_requests": 27,
+    "regularity_std": 0.447,
+    "velocity_rps": 2.545
+  },
+  {
+    "ip": "192.168.1.136",
+    "bot_score": 0.005,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 167.102,
+    "velocity_rps": 0.021
+  },
+  {
+    "ip": "192.168.1.14",
+    "bot_score": 0.088,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 6.553,
+    "velocity_rps": 0.22
+  },
+  {
+    "ip": "192.168.1.147",
+    "bot_score": 0.096,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 6.097,
+    "velocity_rps": 0.254
+  },
+  {
+    "ip": "192.168.1.150",
+    "bot_score": 0.599,
+    "is_bot": false,
+    "nb_requests": 17,
+    "regularity_std": 0.46,
+    "velocity_rps": 2.562
+  },
+  {
+    "ip": "192.168.1.151",
+    "bot_score": 0.094,
+    "is_bot": false,
+    "nb_requests": 72,
+    "regularity_std": 8.168,
+    "velocity_rps": 0.39
+  },
+  {
+    "ip": "192.168.1.154",
+    "bot_score": 0.034,
+    "is_bot": false,
+    "nb_requests": 51,
+    "regularity_std": 33.557,
+    "velocity_rps": 0.199
+  },
+  {
+    "ip": "192.168.1.155",
+    "bot_score": 0.517,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 0.715,
+    "velocity_rps": 2.259
+  },
+  {
+    "ip": "192.168.1.156",
+    "bot_score": 0.03,
+    "is_bot": false,
+    "nb_requests": 35,
+    "regularity_std": 33.567,
+    "velocity_rps": 0.157
+  },
+  {
+    "ip": "192.168.1.157",
+    "bot_score": 0.019,
+    "is_bot": false,
+    "nb_requests": 43,
+    "regularity_std": 54.626,
+    "velocity_rps": 0.098
+  },
+  {
+    "ip": "192.168.1.163",
+    "bot_score": 0.012,
+    "is_bot": false,
+    "nb_requests": 24,
+    "regularity_std": 77.729,
+    "velocity_rps": 0.055
+  },
+  {
+    "ip": "192.168.1.167",
+    "bot_score": 0.093,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 5.739,
+    "velocity_rps": 0.19
+  },
+  {
+    "ip": "192.168.1.169",
+    "bot_score": 0.12,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 4.365,
+    "velocity_rps": 0.272
+  },
+  {
+    "ip": "192.168.1.173",
+    "bot_score": 0.097,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 5.958,
+    "velocity_rps": 0.254
+  },
+  {
+    "ip": "192.168.1.176",
+    "bot_score": 0.086,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 6.781,
+    "velocity_rps": 0.214
+  },
+  {
+    "ip": "192.168.1.185",
+    "bot_score": 0.027,
+    "is_bot": false,
+    "nb_requests": 56,
+    "regularity_std": 37.315,
+    "velocity_rps": 0.136
+  },
+  {
+    "ip": "192.168.1.190",
+    "bot_score": 0.115,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 4.595,
+    "velocity_rps": 0.257
+  },
+  {
+    "ip": "192.168.1.191",
+    "bot_score": 0.099,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 5.611,
+    "velocity_rps": 0.235
+  },
+  {
+    "ip": "192.168.1.193",
+    "bot_score": 0.641,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 0.372,
+    "velocity_rps": 2.762
+  },
+  {
+    "ip": "192.168.1.199",
+    "bot_score": 0.145,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 3.172,
+    "velocity_rps": 0.25
+  },
+  {
+    "ip": "192.168.1.20",
+    "bot_score": 0.233,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 1.584,
+    "velocity_rps": 0.398
+  },
+  {
+    "ip": "192.168.1.200",
+    "bot_score": 0.693,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 0.405,
+    "velocity_rps": 3.368
+  },
+  {
+    "ip": "192.168.1.202",
+    "bot_score": 0.111,
+    "is_bot": false,
+    "nb_requests": 9,
+    "regularity_std": 4.646,
+    "velocity_rps": 0.22
+  },
+  {
+    "ip": "192.168.1.208",
+    "bot_score": 0.656,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 0.498,
+    "velocity_rps": 3.217
+  },
+  {
+    "ip": "192.168.1.21",
+    "bot_score": 0.602,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 0.448,
+    "velocity_rps": 2.572
+  },
+  {
+    "ip": "192.168.1.211",
+    "bot_score": 0.118,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 4.218,
+    "velocity_rps": 0.218
+  },
+  {
+    "ip": "192.168.1.215",
+    "bot_score": 0.101,
+    "is_bot": false,
+    "nb_requests": 22,
+    "regularity_std": 5.13,
+    "velocity_rps": 0.192
+  },
+  {
+    "ip": "192.168.1.216",
+    "bot_score": 0.881,
+    "is_bot": true,
+    "nb_requests": 6,
+    "regularity_std": 0.146,
+    "velocity_rps": 4.445
+  },
+  {
+    "ip": "192.168.1.217",
+    "bot_score": 0.119,
+    "is_bot": false,
+    "nb_requests": 19,
+    "regularity_std": 4.415,
+    "velocity_rps": 0.268
+  },
+  {
+    "ip": "192.168.1.22",
+    "bot_score": 0.009,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 114.222,
+    "velocity_rps": 0.043
+  },
+  {
+    "ip": "192.168.1.224",
+    "bot_score": 0.078,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 7.655,
+    "velocity_rps": 0.202
+  },
+  {
+    "ip": "192.168.1.230",
+    "bot_score": 0.121,
+    "is_bot": false,
+    "nb_requests": 27,
+    "regularity_std": 4.061,
+    "velocity_rps": 0.223
+  },
+  {
+    "ip": "192.168.1.237",
+    "bot_score": 0.11,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 4.56,
+    "velocity_rps": 0.203
+  },
+  {
+    "ip": "192.168.1.239",
+    "bot_score": 0.023,
+    "is_bot": false,
+    "nb_requests": 28,
+    "regularity_std": 40.719,
+    "velocity_rps": 0.112
+  },
+  {
+    "ip": "192.168.1.243",
+    "bot_score": 0.499,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 0.788,
+    "velocity_rps": 2.198
+  },
+  {
+    "ip": "192.168.1.245",
+    "bot_score": 0.725,
+    "is_bot": true,
+    "nb_requests": 12,
+    "regularity_std": 0.229,
+    "velocity_rps": 3.179
+  },
+  {
+    "ip": "192.168.1.247",
+    "bot_score": 0.621,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 0.442,
+    "velocity_rps": 2.74
+  },
+  {
+    "ip": "192.168.1.252",
+    "bot_score": 0.619,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 0.354,
+    "velocity_rps": 2.495
+  },
+  {
+    "ip": "192.168.1.255",
+    "bot_score": 0.134,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 3.66,
+    "velocity_rps": 0.267
+  },
+  {
+    "ip": "192.168.1.32",
+    "bot_score": 0.607,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 0.495,
+    "velocity_rps": 2.722
+  },
+  {
+    "ip": "192.168.1.34",
+    "bot_score": 0.137,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 3.525,
+    "velocity_rps": 0.264
+  },
+  {
+    "ip": "192.168.1.35",
+    "bot_score": 0.267,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 1.182,
+    "velocity_rps": 0.376
+  },
+  {
+    "ip": "192.168.1.39",
+    "bot_score": 0.103,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 5.419,
+    "velocity_rps": 0.253
+  },
+  {
+    "ip": "192.168.1.43",
+    "bot_score": 0.1,
+    "is_bot": false,
+    "nb_requests": 12,
+    "regularity_std": 5.581,
+    "velocity_rps": 0.236
+  },
+  {
+    "ip": "192.168.1.47",
+    "bot_score": 0.041,
+    "is_bot": false,
+    "nb_requests": 57,
+    "regularity_std": 28.359,
+    "velocity_rps": 0.24
+  },
+  {
+    "ip": "192.168.1.48",
+    "bot_score": 0.69,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 0.403,
+    "velocity_rps": 3.335
+  },
+  {
+    "ip": "192.168.1.58",
+    "bot_score": 0.705,
+    "is_bot": true,
+    "nb_requests": 23,
+    "regularity_std": 0.412,
+    "velocity_rps": 3.507
+  },
+  {
+    "ip": "192.168.1.59",
+    "bot_score": 0.107,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 5.251,
+    "velocity_rps": 0.271
+  },
+  {
+    "ip": "192.168.1.6",
+    "bot_score": 0.772,
+    "is_bot": true,
+    "nb_requests": 28,
+    "regularity_std": 0.252,
+    "velocity_rps": 3.723
+  },
+  {
+    "ip": "192.168.1.63",
+    "bot_score": 0.574,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 0.507,
+    "velocity_rps": 2.424
+  },
+  {
+    "ip": "192.168.1.67",
+    "bot_score": 0.722,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.296,
+    "velocity_rps": 3.364
+  },
+  {
+    "ip": "192.168.1.7",
+    "bot_score": 0.196,
+    "is_bot": false,
+    "nb_requests": 14,
+    "regularity_std": 2.105,
+    "velocity_rps": 0.347
+  },
+  {
+    "ip": "192.168.1.75",
+    "bot_score": 0.084,
+    "is_bot": false,
+    "nb_requests": 41,
+    "regularity_std": 8.017,
+    "velocity_rps": 0.282
+  },
+  {
+    "ip": "192.168.1.80",
+    "bot_score": 0.096,
+    "is_bot": false,
+    "nb_requests": 51,
+    "regularity_std": 6.106,
+    "velocity_rps": 0.261
+  },
+  {
+    "ip": "192.168.1.82",
+    "bot_score": 0.125,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 4.026,
+    "velocity_rps": 0.254
+  },
+  {
+    "ip": "192.168.1.85",
+    "bot_score": 0.055,
+    "is_bot": false,
+    "nb_requests": 30,
+    "regularity_std": 17.467,
+    "velocity_rps": 0.284
+  },
+  {
+    "ip": "192.168.1.87",
+    "bot_score": 0.039,
+    "is_bot": false,
+    "nb_requests": 43,
+    "regularity_std": 21.71,
+    "velocity_rps": 0.171
+  },
+  {
+    "ip": "192.168.1.88",
+    "bot_score": 0.14,
+    "is_bot": false,
+    "nb_requests": 16,
+    "regularity_std": 3.293,
+    "velocity_rps": 0.235
+  },
+  {
+    "ip": "192.168.1.9",
+    "bot_score": 0.628,
+    "is_bot": false,
+    "nb_requests": 9,
+    "regularity_std": 0.402,
+    "velocity_rps": 2.709
+  },
+  {
+    "ip": "192.168.1.96",
+    "bot_score": 0.814,
+    "is_bot": true,
+    "nb_requests": 13,
+    "regularity_std": 0.261,
+    "velocity_rps": 4.176
+  },
+  {
+    "ip": "192.168.1.101",
+    "bot_score": 0.008,
+    "is_bot": false,
+    "nb_requests": 21,
+    "regularity_std": 118.232,
+    "velocity_rps": 0.039
+  },
+  {
+    "ip": "192.168.1.109",
+    "bot_score": 0.785,
+    "is_bot": true,
+    "nb_requests": 7,
+    "regularity_std": 0.252,
+    "velocity_rps": 3.854
+  },
+  {
+    "ip": "192.168.1.122",
+    "bot_score": 0.657,
+    "is_bot": false,
+    "nb_requests": 7,
+    "regularity_std": 0.255,
+    "velocity_rps": 2.583
+  },
+  {
+    "ip": "192.168.1.123",
+    "bot_score": 0.1,
+    "is_bot": false,
+    "nb_requests": 25,
+    "regularity_std": 5.278,
+    "velocity_rps": 0.199
+  },
+  {
+    "ip": "192.168.1.135",
+    "bot_score": 0.022,
+    "is_bot": false,
+    "nb_requests": 68,
+    "regularity_std": 47.005,
+    "velocity_rps": 0.112
+  },
+  {
+    "ip": "192.168.1.141",
+    "bot_score": 0.199,
+    "is_bot": false,
+    "nb_requests": 31,
+    "regularity_std": 3.086,
+    "velocity_rps": 0.768
+  },
+  {
+    "ip": "192.168.1.146",
+    "bot_score": 0.036,
+    "is_bot": false,
+    "nb_requests": 26,
+    "regularity_std": 21.623,
+    "velocity_rps": 0.137
+  },
+  {
+    "ip": "192.168.1.174",
+    "bot_score": 0.158,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 2.758,
+    "velocity_rps": 0.247
+  },
+  {
+    "ip": "192.168.1.175",
+    "bot_score": 0.086,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 6.32,
+    "velocity_rps": 0.18
+  },
+  {
+    "ip": "192.168.1.178",
+    "bot_score": 0.716,
+    "is_bot": true,
+    "nb_requests": 19,
+    "regularity_std": 0.281,
+    "velocity_rps": 3.261
+  },
+  {
+    "ip": "192.168.1.204",
+    "bot_score": 0.15,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 3.361,
+    "velocity_rps": 0.349
+  },
+  {
+    "ip": "192.168.1.210",
+    "bot_score": 0.099,
+    "is_bot": false,
+    "nb_requests": 6,
+    "regularity_std": 5.579,
+    "velocity_rps": 0.227
+  },
+  {
+    "ip": "192.168.1.214",
+    "bot_score": 0.116,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 4.315,
+    "velocity_rps": 0.217
+  },
+  {
+    "ip": "192.168.1.228",
+    "bot_score": 0.764,
+    "is_bot": true,
+    "nb_requests": 14,
+    "regularity_std": 0.228,
+    "velocity_rps": 3.569
+  },
+  {
+    "ip": "192.168.1.231",
+    "bot_score": 0.984,
+    "is_bot": true,
+    "nb_requests": 8,
+    "regularity_std": 0.139,
+    "velocity_rps": 5.453
+  },
+  {
+    "ip": "192.168.1.37",
+    "bot_score": 0.123,
+    "is_bot": false,
+    "nb_requests": 35,
+    "regularity_std": 4.034,
+    "velocity_rps": 0.24
+  },
+  {
+    "ip": "192.168.1.41",
+    "bot_score": 0.095,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 6.176,
+    "velocity_rps": 0.252
+  },
+  {
+    "ip": "192.168.1.50",
+    "bot_score": 0.127,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 3.882,
+    "velocity_rps": 0.244
+  },
+  {
+    "ip": "192.168.1.51",
+    "bot_score": 0.648,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 0.395,
+    "velocity_rps": 2.892
+  },
+  {
+    "ip": "192.168.1.60",
+    "bot_score": 0.609,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 0.442,
+    "velocity_rps": 2.62
+  },
+  {
+    "ip": "192.168.1.81",
+    "bot_score": 0.718,
+    "is_bot": true,
+    "nb_requests": 5,
+    "regularity_std": 0.243,
+    "velocity_rps": 3.159
+  },
+  {
+    "ip": "192.168.1.83",
+    "bot_score": 0.017,
+    "is_bot": false,
+    "nb_requests": 13,
+    "regularity_std": 50.42,
+    "velocity_rps": 0.073
+  },
+  {
+    "ip": "192.168.1.90",
+    "bot_score": 0.011,
+    "is_bot": false,
+    "nb_requests": 50,
+    "regularity_std": 99.942,
+    "velocity_rps": 0.059
+  },
+  {
+    "ip": "192.168.1.97",
+    "bot_score": 0.696,
+    "is_bot": false,
+    "nb_requests": 27,
+    "regularity_std": 0.372,
+    "velocity_rps": 3.32
+  },
+  {
+    "ip": "192.168.1.98",
+    "bot_score": 0.13,
+    "is_bot": false,
+    "nb_requests": 15,
+    "regularity_std": 3.837,
+    "velocity_rps": 0.263
+  },
+  {
+    "ip": "192.168.1.166",
+    "bot_score": 0.129,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 3.757,
+    "velocity_rps": 0.24
+  },
+  {
+    "ip": "192.168.1.181",
+    "bot_score": 0.025,
+    "is_bot": false,
+    "nb_requests": 45,
+    "regularity_std": 39.631,
+    "velocity_rps": 0.128
+  },
+  {
+    "ip": "192.168.1.184",
+    "bot_score": 0.598,
+    "is_bot": false,
+    "nb_requests": 22,
+    "regularity_std": 0.465,
+    "velocity_rps": 2.569
+  },
+  {
+    "ip": "192.168.1.186",
+    "bot_score": 0.012,
+    "is_bot": false,
+    "nb_requests": 32,
+    "regularity_std": 83.094,
+    "velocity_rps": 0.065
+  },
+  {
+    "ip": "192.168.1.19",
+    "bot_score": 0.084,
+    "is_bot": false,
+    "nb_requests": 29,
+    "regularity_std": 6.525,
+    "velocity_rps": 0.179
+  },
+  {
+    "ip": "192.168.1.192",
+    "bot_score": 0.081,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 7.112,
+    "velocity_rps": 0.197
+  },
+  {
+    "ip": "192.168.1.194",
+    "bot_score": 0.324,
+    "is_bot": false,
+    "nb_requests": 37,
+    "regularity_std": 1.957,
+    "velocity_rps": 1.549
+  },
+  {
+    "ip": "192.168.1.220",
+    "bot_score": 0.011,
+    "is_bot": false,
+    "nb_requests": 33,
+    "regularity_std": 91.049,
+    "velocity_rps": 0.055
+  },
+  {
+    "ip": "192.168.1.241",
+    "bot_score": 0.082,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 6.894,
+    "velocity_rps": 0.186
+  },
+  {
+    "ip": "192.168.1.26",
+    "bot_score": 0.08,
+    "is_bot": false,
+    "nb_requests": 23,
+    "regularity_std": 7.466,
+    "velocity_rps": 0.206
+  },
+  {
+    "ip": "192.168.1.56",
+    "bot_score": 0.102,
+    "is_bot": false,
+    "nb_requests": 10,
+    "regularity_std": 5.19,
+    "velocity_rps": 0.209
+  },
+  {
+    "ip": "192.168.1.69",
+    "bot_score": 0.11,
+    "is_bot": false,
+    "nb_requests": 20,
+    "regularity_std": 4.602,
+    "velocity_rps": 0.212
+  },
+  {
+    "ip": "192.168.1.72",
+    "bot_score": 0.583,
+    "is_bot": false,
+    "nb_requests": 18,
+    "regularity_std": 0.497,
+    "velocity_rps": 2.486
+  },
+  {
+    "ip": "192.168.1.74",
+    "bot_score": 0.031,
+    "is_bot": false,
+    "nb_requests": 67,
+    "regularity_std": 36.221,
+    "velocity_rps": 0.174
+  },
+  {
+    "ip": "192.168.1.79",
+    "bot_score": 0.025,
+    "is_bot": false,
+    "nb_requests": 59,
+    "regularity_std": 36.709,
+    "velocity_rps": 0.117
+  },
+  {
+    "ip": "192.168.1.92",
+    "bot_score": 0.011,
+    "is_bot": false,
+    "nb_requests": 41,
+    "regularity_std": 97.331,
+    "velocity_rps": 0.061
+  },
+  {
+    "ip": "192.168.1.94",
+    "bot_score": 0.134,
+    "is_bot": false,
+    "nb_requests": 11,
+    "regularity_std": 3.555,
+    "velocity_rps": 0.244
+  }
+]
