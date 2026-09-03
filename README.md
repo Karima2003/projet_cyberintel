@@ -1,408 +1,307 @@
-# 🛡️ CyberIntel — Web Disinformation Detection
+# CyberIntel — Web Disinformation Detection
 
-> **An intelligent Cyber Threat Intelligence platform for detecting suspicious web content and domains through Web Mining, Machine Learning, NLP, behavioral analysis, and graph analytics.**
+CyberIntel is a web disinformation detection project developed as part of an academic project in Big Data and Artificial Intelligence.
 
-CyberIntel is an end-to-end Cyber Threat Intelligence platform designed to analyze web information and identify signals associated with potentially suspicious or misleading content.
+The objective is to collect and analyze web content in order to identify suspicious pages and domains. The project combines **web scraping, NLP, machine learning, graph analysis, and behavioral analysis** to build a unified view of potentially misleading or suspicious content.
 
-The platform combines **Web Crawling, NLP, Machine Learning, Deep Learning, behavioral analysis, and graph-based intelligence** to transform raw web data into actionable threat indicators and visual investigations.
-
----
-
-## 🎯 Project Overview
-
-The modern web contains an enormous amount of information published across news websites, blogs, forums, and other online platforms. This environment can also facilitate the rapid propagation of misinformation, coordinated campaigns, automated activity, and manipulated content.
-
-CyberIntel addresses this problem by analyzing **three complementary dimensions**:
-
-* 🕸️ **Structural analysis** — relationships and connectivity between websites
-* 🤖 **Behavioral analysis** — detection of potentially automated activity
-* 🧠 **Semantic analysis** — analysis of textual content using NLP and AI
-
-The objective is to combine these signals into a unified intelligence pipeline capable of identifying suspicious domains and prioritizing further investigation.
+The system processes collected web pages, extracts relevant features, analyzes relationships between domains and pages, and produces a suspicion score that can be explored through a Streamlit dashboard.
 
 ---
 
-## ✨ Key Features
+## Project Overview
 
-### 🌐 Web Intelligence & Crawling
+The system follows several stages:
 
-* Automated collection of web pages
-* Static and dynamic page scraping
-* Extraction of textual content and metadata
-* Internal and external link discovery
-* Multi-source and multilingual data collection
-* Respect for website crawling policies through `robots.txt`
+1. Collect web pages from different sources.
+2. Store the collected information in databases.
+3. Clean and preprocess the textual content.
+4. Build a graph representing relationships between pages and domains.
+5. Analyze the graph using network analysis algorithms.
+6. Detect suspicious or automated behavior.
+7. Extract NLP and stylometric features.
+8. Apply machine learning models for classification.
+9. Combine the different signals into a final suspicion score.
+10. Visualize the results through an interactive dashboard.
 
-More than **2,200 web pages** were collected from multiple categories of sources.
-
-### 🗄️ Multi-Database Architecture
-
-CyberIntel uses specialized databases for different types of information:
-
-| Technology        | Role                                           |
-| ----------------- | ---------------------------------------------- |
-| **MongoDB**       | Storage of collected web documents             |
-| **Elasticsearch** | Full-text indexing and fast search             |
-| **Neo4j**         | Graph representation and relationship analysis |
-
-This hybrid architecture separates document storage, search, and graph intelligence according to their respective strengths.
-
-### 🕸️ Graph Intelligence
-
-Each web page is represented as a node and hyperlinks are represented as edges.
-
-The graph analysis includes:
-
-* **PageRank** — identification of influential domains
-* **HITS** — identification of hubs and authorities
-* **Community Detection** — discovery of highly connected groups
-* Link-structure analysis
-* Suspicious network identification
-
-The resulting graph contained **2,102 nodes and 4,806 links**, with **22 communities** detected.
-
-### 🤖 Behavioral & Bot Analysis
-
-CyberIntel analyzes browsing behavior using:
-
-* Request frequency
-* Request speed
-* Regularity
-* Activity patterns
-
-A **Bot Score between 0 and 1** is calculated to quantify suspicious automated behavior.
-
-Higher values indicate more suspicious activity. The project reports Bot Scores reaching **0.984** for some detected IPs.
-
-### 🧹 Data Processing & Preparation
-
-The preprocessing pipeline includes:
-
-* Text normalization
-* Lowercasing
-* URL removal
-* Punctuation removal
-* Special-character cleaning
-* Whitespace normalization
-* Dataset structuring with Pandas
-* Automatic labeling
-* Feature integration
-
-The final analytical dataset combines web, graph, behavioral, label, and metadata information.
+The project was designed to combine different types of information rather than relying on a single classification model.
 
 ---
 
-# 🧠 Artificial Intelligence Pipeline
+## Main Features
 
-CyberIntel combines classical Machine Learning with semantic Deep Learning techniques.
+### Web Data Collection
 
-## Machine Learning Models
+The scraping pipeline collects information from web pages, including:
 
-The following classification algorithms were evaluated:
+* Page URLs
+* Domain information
+* Titles
+* Text content
+* Links between pages
+* Metadata used during analysis
 
-* Logistic Regression
-* Random Forest
-* HistGradientBoostingClassifier
-
-Because the original dataset contained significantly fewer `fake` examples than `real` examples, class balancing was taken into account during model training.
-
-## 🤗 BERT / Sentence Transformers
-
-Sentence Transformers were integrated to generate **384-dimensional semantic embeddings** from web content.
-
-These embeddings allow the system to capture contextual and semantic information beyond traditional text-based features.
-
-## 🔄 Data Augmentation
-
-To address the limited number of fake examples, the training data was augmented using:
-
-* Synonym replacement
-* Back Translation
-
-Augmentation was applied only to the training data to avoid test-set contamination.
-
-## 📊 Model Evaluation
-
-The models were evaluated using:
-
-* Accuracy
-* F1-score
-* F1-macro
-* ROC-AUC
-* Confusion Matrix
-
-The best-performing model in the final evaluation was **HistGradientBoostingClassifier**:
-
-| Metric   |     Result |
-| -------- | ---------: |
-| Accuracy | **95.98%** |
-| F1-macro | **0.8492** |
-| ROC-AUC  | **0.9372** |
-
-The reported final test set contained **24 fake** and **324 real** examples.
+The scraping part uses tools such as **Requests, Selenium and BeautifulSoup**.
 
 ---
 
-# 🔍 Advanced Content Analysis
+### Data Storage
 
-## Semantic Similarity
+Different databases were used depending on the type of information being handled:
 
-Cosine similarity is used to compare suspicious content with predefined semantic reference profiles.
+* **MongoDB** — storage of collected web documents
+* **Elasticsearch** — indexing and searching textual data
+* **Neo4j** — representation of relationships between pages and domains
 
-Two reference profiles were constructed:
-
-* Propagandistic profile
-* Neutral profile
-
-The semantic similarity signal is combined with other indicators rather than being used alone to classify an article.
-
-## 🧭 Stance Analysis
-
-The system performs stance analysis to identify broad ideological orientations:
-
-* Pro-Russian
-* Pro-Western
-* Neutral
-
-The analysis is based on a geopolitical keyword lexicon and its results are incorporated into the unified scoring system.
-
-## ✍️ Stylometric Analysis
-
-Stylometric features are extracted to compare writing characteristics between fake and real content.
-
-The analyzed features include:
-
-* Average word length
-* Vocabulary richness
-* Text length
-
-This provides an additional linguistic signal for identifying suspicious writing patterns.
+This allowed the project to work with both document-oriented and graph-based data.
 
 ---
 
-# 🚨 Unified Threat Scoring
+## Graph Analysis
 
-One of the core components of CyberIntel is the **Unified Suspicion Scoring Engine**.
+A graph was constructed to represent relationships between the collected web pages and domains.
 
-Instead of relying on a single model, the system combines multiple analytical signals:
+The graph contains:
 
-```text
-                    ┌─────────────────────┐
-                    │   Web Intelligence  │
-                    └──────────┬──────────┘
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        │                      │                      │
-        ▼                      ▼                      ▼
-   ML Prediction         Graph Analysis        Behavioral Analysis
-        │                      │                      │
-        ▼                      ▼                      ▼
-   ML Score             Community Score          Bot Score
-        │                      │                      │
-        └──────────────────────┼──────────────────────┘
-                               │
-                               ▼
-                     Stance / Content Analysis
-                               │
-                               ▼
-                  ┌─────────────────────────┐
-                  │ Unified Suspicion Score │
-                  └────────────┬────────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │  Risk Classification│
-                    └─────────────────────┘
-                       LOW / MEDIUM / HIGH
-```
+* Nodes representing pages/domains
+* Edges representing relationships between them
 
-The unified score incorporates:
+Several graph analysis techniques were used, including:
 
-* Machine Learning predictions
-* Community isolation
-* Stance analysis
-* Contradiction rate
-* Graph metrics
-* Behavioral signals
-
-This multi-dimensional approach provides a broader assessment than relying exclusively on textual classification.
-
-### Risk Levels
-
-| Level         | Condition           |
-| ------------- | ------------------- |
-| 🟢 **LOW**    | Score < 0.45        |
-| 🟠 **MEDIUM** | 0.45 ≤ Score < 0.62 |
-| 🔴 **HIGH**   | Score ≥ 0.62        |
-
-These thresholds are used by the dashboard to prioritize potentially suspicious domains.
-
----
-
-# 📊 Cyber Threat Intelligence Dashboard
-
-CyberIntel includes an interactive **Streamlit dashboard** designed for investigation and threat visualization.
-
-The dashboard follows a dark **SOC-inspired cybersecurity interface** and is organized into five main modules:
-
-### 1. Overview
-
-Provides a global view of the system:
-
-* Total analyzed domains
-* Number of HIGH-risk domains
-* Average suspicion score
-* Number of predictions
-* Suspicion score distribution
-* Most suspicious domains
-
-### 2. Domains
-
-Provides detailed domain-level investigation:
-
-* Suspicion score
-* Risk level
-* Fake probability
-* Contradiction rate
-* Stance score
-* Community isolation
-* Interactive filtering and sorting
-* CSV / JSON export
-
-### 3. ML Engine
-
-Provides Machine Learning analysis:
-
-* Model comparison
-* Accuracy
-* F1-score
-* ROC-AUC
-* Prediction confidence
-* Confusion matrix
-* Class distribution
-
-### 4. Network
-
-Provides graph-based investigation:
-
-* Interactive domain network
-* Domain relationships
-* Suspicious clusters
+* PageRank
+* HITS
 * Community detection
-* Central hubs
-* Community statistics
+* Degree-based analysis
+* NetworkX graph processing
 
-The graph is built with **NetworkX**, with nodes representing domains and edges representing relationships.
+The final dataset used in the project contains more than **2,100 nodes** and **4,800 relationships**, with **22 detected communities**.
 
-### 5. Pipeline
-
-Provides a global view of the CyberIntel pipeline:
-
-* Pages analyzed
-* Domains scored
-* Models compared
-* Stylometric analysis
-* Pipeline-generated metrics
+These relationships help identify groups of domains and pages that behave similarly or are strongly connected.
 
 ---
 
-# 🏗️ System Architecture
+## NLP and Text Analysis
+
+The textual content of the collected pages was cleaned and transformed before being used by the machine learning pipeline.
+
+The preprocessing includes operations such as:
+
+* Text cleaning
+* Tokenization
+* Stop-word handling
+* Normalization
+* Feature extraction
+
+Different NLP approaches were explored, including:
+
+* TF-IDF
+* BERT-based embeddings
+* Sentence Transformers
+* Semantic similarity
+* Stance analysis
+* Stylometric analysis
+
+The goal was to extract both semantic and linguistic information from the articles.
+
+---
+
+## Machine Learning
+
+Several machine learning models were evaluated for the classification task.
+
+The project experimented with different algorithms and compared their performance before selecting the final model.
+
+The final model used in the project was **HistGradientBoostingClassifier**.
+
+### Final Results
+
+| Metric   |  Score |
+| -------- | -----: |
+| Accuracy | 95.98% |
+| F1-Macro | 0.8492 |
+| ROC-AUC  | 0.9372 |
+
+The model was evaluated using the processed and augmented dataset developed during the project.
+
+---
+
+## Behavioral / Bot Analysis
+
+The project also includes behavioral analysis to identify domains or sources showing characteristics associated with automated or suspicious activity.
+
+A **Bot Score** was calculated from different behavioral indicators.
+
+The resulting score is used as one of the signals in the final analysis instead of being treated as the only criterion for deciding whether content is suspicious.
+
+---
+
+## Suspicion Scoring
+
+The different analysis components are combined into a unified suspicion score.
+
+The scoring system takes into account several signals, including:
+
+* Machine learning predictions
+* Graph-based information
+* Behavioral analysis
+* Semantic similarity
+* Stance analysis
+* Stylometric features
+
+The resulting score is used to classify the analyzed content into different suspicion levels.
+
+### Suspicion Levels
+
+* **LOW** — limited evidence of suspicious behavior
+* **MEDIUM** — several suspicious indicators
+* **HIGH** — strong combination of suspicious indicators
+
+The score is intended as an analytical indicator and should not be considered a definitive fact-checking decision.
+
+---
+
+## Dashboard
+
+A Streamlit dashboard was developed to provide an interface for exploring the results of the analysis.
+
+The dashboard contains several sections:
+
+### Overview
+
+Provides a general view of the collected data and the main analysis results.
+
+### Domains
+
+Allows exploration of domains and their associated information.
+
+### ML Engine
+
+Displays machine learning predictions and classification-related results.
+
+### Network
+
+Provides graph-based information and network analysis results.
+
+### Pipeline
+
+Shows the different stages of the data processing and analysis pipeline.
+
+---
+
+## System Architecture
+
+The general workflow of the project can be summarized as:
 
 ```text
-                         WEB SOURCES
-                              │
-                              ▼
-                  ┌──────────────────────┐
-                  │     Web Crawlers     │
-                  │ Requests / Selenium  │
-                  │ BeautifulSoup / URLs │
-                  └──────────┬───────────┘
-                             │
-                             ▼
-                  ┌──────────────────────┐
-                  │    Data Storage      │
-                  │ MongoDB              │
-                  │ Elasticsearch        │
-                  │ Neo4j                │
-                  └──────────┬───────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-        Text Analysis   Graph Analysis  Behavioral
-              │              │              │
-              ▼              ▼              ▼
-          NLP / BERT     PageRank/HITS    Bot Score
-              │              │              │
-              └──────────────┼──────────────┘
-                             ▼
-                    Unified Scoring Engine
-                             │
-                             ▼
-                    Risk Classification
-                  LOW / MEDIUM / HIGH
-                             │
-                             ▼
-                    Streamlit Dashboard
+                    Web Sources
+                         |
+                         v
+                +------------------+
+                |   Web Scraping   |
+                | Requests/Selenium|
+                |   BeautifulSoup  |
+                +--------+---------+
+                         |
+                         v
+                +------------------+
+                |  Data Storage    |
+                | MongoDB / ES     |
+                | Neo4j            |
+                +--------+---------+
+                         |
+                         v
+                +------------------+
+                | Preprocessing    |
+                | Cleaning / NLP   |
+                +--------+---------+
+                         |
+             +-----------+-----------+
+             |                       |
+             v                       v
+      +-------------+         +-------------+
+      | NLP / ML    |         | Graph       |
+      | Analysis    |         | Analysis    |
+      +------+------+         +------+------+
+             |                       |
+             +-----------+-----------+
+                         |
+                         v
+                +------------------+
+                | Behavioral       |
+                | Analysis         |
+                +--------+---------+
+                         |
+                         v
+                +------------------+
+                | Unified Suspicion|
+                | Score            |
+                +--------+---------+
+                         |
+                         v
+                +------------------+
+                | Streamlit        |
+                | Dashboard        |
+                +------------------+
 ```
 
 ---
 
-# 📁 Project Structure
+## Project Structure
 
 ```text
 projet_cyberintel/
 │
-├── dashboard.py
-├── main.py
-├── config.py
-├── Unified scoring.py
-├── build_clean_pages.py
-├── export_data.py
-│
-├── scrapers/
-│   ├── scraper_static.py
-│   └── scraper_dynamic.py
-│
 ├── database/
 │   ├── mongo_connector.py
-│   ├── elastic_connector.py
-│   └── neo4j_connector.py
-│
-├── graph_mining/
-│   ├── build_graph.py
-│   ├── community_detection.py
-│   └── pagerank_hits.py
-│
-├── usage_mining/
-│   └── bot_detector.py
+│   ├── neo4j_connector.py
+│   └── elastic_connector.py
 │
 ├── datasets/
 │   ├── graph_links.json
 │   ├── comparaison_finale.png
+│   ├── comparaison_modeles.csv
 │   ├── stance_analysis.png
 │   ├── stylometrie.png
-│   └── suspicion_distribution.png
+│   ├── suspicion_distribution.png
+│   └── ...
 │
-├── pipeline_ML.ipynb
-├── preprocessing des donnees.ipynb
+├── graph_mining/
+│   ├── community_detection.py
+│   ├── graph_analysis.py
+│   └── ...
 │
-├── bot_scores.json
-├── graph_metrics.json
+├── scrapers/
+│   ├── scraper.py
+│   └── ...
 │
-├── rapport de projet.pdf
+├── usage_mining/
+│   ├── bot_detector.py
+│   └── ...
 │
-└── .gitignore
+├── build_clean_pages.py
+├── config.py
+├── dashboard.py
+├── export_data.py
+├── main.py
+├── Unified scoring.py
+│
+├── notebooks/
+│   └── ...
+│
+├── .gitignore
+└── README.md
 ```
+
+> The exact files and modules may change as the project evolves.
 
 ---
 
-# 🛠️ Technologies
+## Technologies
 
 ### Programming
 
 * Python
 
-### Web Mining
+### Data Collection
 
 * Requests
 * Selenium
@@ -413,55 +312,60 @@ projet_cyberintel/
 
 * Pandas
 * NumPy
-* Regex
+* Regular Expressions
+
+### NLP
+
 * NLTK
+* Scikit-learn
+* BERT
+* Sentence Transformers
+* TF-IDF
 
 ### Machine Learning
 
 * Scikit-learn
-* Logistic Regression
-* Random Forest
 * HistGradientBoosting
+* Other classification models evaluated during experimentation
 
-### Deep Learning / NLP
-
-* BERT
-* Sentence Transformers
-* Semantic Embeddings
-* Cosine Similarity
-
-### Graph Intelligence
-
-* Neo4j
-* NetworkX
-* PageRank
-* HITS
-* Community Detection
-
-### Databases & Search
+### Databases
 
 * MongoDB
 * Elasticsearch
+* Neo4j
 
-### Visualization
+### Graph Analysis
+
+* NetworkX
+
+### Visualization / Interface
 
 * Streamlit
-* Interactive charts and network visualization
+* Matplotlib
 
 ---
 
-# 🚀 Getting Started
+## Dataset and Results
 
-## Prerequisites
+During the project, more than **2,200 web pages** were collected and processed.
 
-Make sure you have:
+The graph analysis produced approximately:
 
-* Python 3.x
-* MongoDB
-* Elasticsearch
-* Neo4j
+* **2,102 nodes**
+* **4,806 links**
+* **22 communities**
 
-installed and configured.
+The behavioral analysis also produced high bot-related scores for some sources, with a maximum observed Bot Score of approximately **0.984**.
+
+The machine learning experiments resulted in the following final evaluation:
+
+* Accuracy: **95.98%**
+* F1-Macro: **0.8492**
+* ROC-AUC: **0.9372**
+
+These results are specific to the datasets and experimental setup used in this project.
+
+---
 
 ## Installation
 
@@ -480,142 +384,119 @@ python -m venv venv
 
 Activate it on Windows:
 
-```cmd
+```bash
 venv\Scripts\activate
 ```
 
-Install the required dependencies:
+Or on Linux/macOS:
+
+```bash
+source venv/bin/activate
+```
+
+Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> **Note:** A `requirements.txt` file should be added to the repository if one is not already present.
-
-## Configuration
-
-Create a `.env` file locally containing your database configuration and other environment-specific variables.
-
-**Do not commit `.env` to GitHub.**
-
-The repository already uses `.gitignore` to prevent `.env` from being uploaded.
+> If `requirements.txt` is not included in the repository yet, it should be created from the project's Python environment before attempting a fresh installation.
 
 ---
 
-# ▶️ Running the Dashboard
+## Configuration
 
-After configuring the required services and environment variables:
+Some components of the project require external services and environment variables.
+
+Sensitive configuration should be stored in a `.env` file.
+
+Example:
+
+```text
+MONGO_URI=your_mongodb_connection
+ELASTICSEARCH_URL=your_elasticsearch_url
+NEO4J_URI=your_neo4j_uri
+NEO4J_USER=your_username
+NEO4J_PASSWORD=your_password
+```
+
+**Do not commit your `.env` file or any credentials to GitHub.**
+
+The repository already ignores `.env` through `.gitignore`.
+
+---
+
+## Running the Dashboard
+
+After installing the dependencies and configuring the required services:
 
 ```bash
 streamlit run dashboard.py
 ```
 
-The dashboard provides access to:
-
-```text
-Overview
-   ↓
-Domains
-   ↓
-ML Engine
-   ↓
-Network
-   ↓
-Pipeline
-```
+The dashboard will then be available locally through Streamlit.
 
 ---
 
-# 📈 Results
+## Reproducing the Pipeline
 
-The project demonstrates a complete pipeline from web collection to threat visualization.
+The main processing workflow can be executed through the project scripts.
 
-### Data Collection
-
-* **2,200+ web pages collected**
-* Multi-source web dataset
-* Multiple categories of information sources
-
-### Graph Analysis
-
-* **2,102 nodes**
-* **4,806 links**
-* **22 communities detected**
-
-### Behavioral Analysis
-
-* Bot Score ranging from 0 to 1
-* Maximum reported score: **0.984**
-
-### Machine Learning
-
-**HistGradientBoostingClassifier**
-
-* **95.98% Accuracy**
-* **0.8492 F1-macro**
-* **0.9372 ROC-AUC**
-
-## These results correspond to the final evaluation described in the project report.
-
-# 🔬 Methodology
-
-CyberIntel follows a multi-stage intelligence pipeline:
+The general order is:
 
 ```text
-1. Web Crawling
-       ↓
-2. Data Storage
-       ↓
-3. Data Cleaning
-       ↓
-4. Graph Construction
-       ↓
-5. Community Detection
-       ↓
-6. Behavioral Analysis
-       ↓
-7. Dataset Construction
-       ↓
-8. NLP & Feature Engineering
-       ↓
-9. ML / BERT Analysis
-       ↓
-10. Stance Analysis
-       ↓
-11. Stylometric Analysis
-       ↓
-12. Unified Suspicion Scoring
-       ↓
-13. Risk Classification
-       ↓
-14. Cyber Threat Intelligence Dashboard
+Data Collection
+      ↓
+Data Cleaning
+      ↓
+Database Storage
+      ↓
+Graph Construction
+      ↓
+Graph Mining
+      ↓
+Behavioral Analysis
+      ↓
+NLP / Feature Extraction
+      ↓
+Machine Learning
+      ↓
+Unified Scoring
+      ↓
+Dashboard
 ```
+
+Some steps depend on the availability of the corresponding databases and previously generated datasets.
 
 ---
 
-# ⚠️ Disclaimer
+## Limitations
 
-CyberIntel is a **research and academic project** designed to identify suspicious patterns and support investigation.
+The project has several limitations.
 
-A domain or article receiving a high suspicion score should **not automatically be interpreted as definitive proof of disinformation or malicious activity**.
-
-The system combines multiple signals to assist analysis and prioritization.
+* Web scraping results depend on the availability and structure of websites.
+* The collected dataset does not represent the entire web.
+* Machine learning performance depends on the quality and distribution of the available training data.
+* A high suspicion score does not necessarily mean that a page is objectively false.
+* Graph relationships depend on the links present in the collected pages.
+* Some components require external database services.
+* The system is intended as an analytical and research prototype rather than a production-grade fact-checking system.
 
 ---
 
+## Future Improvements
 
+Possible improvements include:
 
-# ⭐ Project Highlights
+* Increasing the size and diversity of the dataset
+* Improving the labeling process
+* Adding more multilingual NLP models
+* Testing larger language models
+* Improving graph-based features
+* Developing a more advanced RAG-based analysis pipeline
+* Improving real-time data collection
+* Adding additional threat-intelligence sources
+* Improving dashboard interaction and filtering
+* Deploying the system as a complete cloud-based service
 
-```text
-🕸️ Web Mining
-🤖 Machine Learning
-🧠 NLP & BERT
-🕵️ Behavioral Analysis
-🕸️ Graph Intelligence
-🗄️ Multi-Database Architecture
-🚨 Unified Threat Scoring
-📊 Interactive CTI Dashboard
-```
-
-**CyberIntel transforms raw web data into structured intelligence for the investigation of suspicious information ecosystems.**
+---
